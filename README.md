@@ -15,14 +15,22 @@
 
 <br>
 
+## Tabla de Contenidos
+1. [Instrucciones para la ejecución](#instrucciones-para-la-ejecución)
+2. [Breve descripción de una partida](#breve-descripción-de-una-partida)
+3. [Descripción de la implementación](#descripción-de-la-implementación)
+4. [Lenguaje de programación](#lenguaje-de-programación)
+5. [Implementación del mini-lenguaje](#implementación-del-mini-lenguaje)
+
+
 ## Instrucciones para la ejecución
----
+
 Para jugar tan solo necesitas instalar una versión 6.0.102 o superior de DotNet, y abrir el archivo `Regular Card Game.bat` presente en la carpeta raíz del juego.
 
 <br>
 
 ## Breve descripción de una partida
----
+
 Una partida o `match`, se compone de dos jugadores, y una serie de turnos.
 
 Al inicio de la partida ambos jugadores comienzan con 30 puntos de vida, sus correspondientes mazos son reordenados de forma aleatoria, y del mismo sacan 3 cartas. 
@@ -40,7 +48,6 @@ La partida termina cuando los puntos de vida de uno de los jugadores se vuelve m
 
 ## Descripción de la implementación
 
----
 
 El proyecto fue creado como una aplicación de `BlazorServer`, con lo que está compuesto fundamentalmente por `C#`, `HTML`, `CSS` y `Javascript`.
 
@@ -101,7 +108,7 @@ En la carpeta `wwwroot` se encuetran las carpetas `audios` (que contiene todos l
 <br>
 
 ## Lenguaje de programación
----
+
 
 Para la creación de los efectos de las cartas se creó un mini-lenguaje de programación inspirado en C/C++/C# y Python. Por el momento el lenguaje cuenta con las siguientes características:
 - Un programa válido está encapsulado entre llaves "`{ }`"
@@ -143,7 +150,7 @@ Actualmente las funciones/comandos que se pueden utilizar en el lenguaje son:
 <br>
 
 ## Implementación del mini-lenguaje
----
+
 
 Se dividió el intérprete del lenguaje en 3 componentes fundamentales, en orden de procesamiento:
 - `Lexer`: el proceso de descomponer la cadena de caracteres de entrada es llamado Análisis léxico. Por tanto, el primer paso que el intérprete debe realizar es leer la entrada de caractéres y convertirla en una lista ordenada de tokens. Por ejemplo, el programa sencillo siguiente:
