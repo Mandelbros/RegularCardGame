@@ -1,0 +1,90 @@
+E:\Programming\Projects\C#\Regular Card Game Definitive Edition\bin\Debug\net6.0\Regular Card Game Definitive Edition.exe
+E:\Programming\Projects\C#\Regular Card Game Definitive Edition\bin\Debug\net6.0\Regular Card Game Definitive Edition.deps.json
+E:\Programming\Projects\C#\Regular Card Game Definitive Edition\bin\Debug\net6.0\Regular Card Game Definitive Edition.runtimeconfig.json
+E:\Programming\Projects\C#\Regular Card Game Definitive Edition\bin\Debug\net6.0\Regular Card Game Definitive Edition.dll
+E:\Programming\Projects\C#\Regular Card Game Definitive Edition\bin\Debug\net6.0\Regular Card Game Definitive Edition.pdb
+E:\Programming\Projects\C#\Regular Card Game Definitive Edition\obj\Debug\net6.0\Regular Card Game Definitive Edition.csproj.AssemblyReference.cache
+E:\Programming\Projects\C#\Regular Card Game Definitive Edition\obj\Debug\net6.0\Regular Card Game Definitive Edition.GeneratedMSBuildEditorConfig.editorconfig
+E:\Programming\Projects\C#\Regular Card Game Definitive Edition\obj\Debug\net6.0\Regular Card Game Definitive Edition.AssemblyInfoInputs.cache
+E:\Programming\Projects\C#\Regular Card Game Definitive Edition\obj\Debug\net6.0\Regular Card Game Definitive Edition.AssemblyInfo.cs
+E:\Programming\Projects\C#\Regular Card Game Definitive Edition\obj\Debug\net6.0\Regular Card Game Definitive Edition.csproj.CoreCompileInputs.cache
+E:\Programming\Projects\C#\Regular Card Game Definitive Edition\obj\Debug\net6.0\Regular Card Game Definitive Edition.dll
+E:\Programming\Projects\C#\Regular Card Game Definitive Edition\obj\Debug\net6.0\refint\Regular Card Game Definitive Edition.dll
+E:\Programming\Projects\C#\Regular Card Game Definitive Edition\obj\Debug\net6.0\Regular Card Game Definitive Edition.pdb
+E:\Programming\Projects\C#\Regular Card Game Definitive Edition\obj\Debug\net6.0\Regular Card Game Definitive Edition.genruntimeconfig.cache
+E:\Programming\Projects\C#\Regular Card Game Definitive Edition\obj\Debug\net6.0\ref\Regular Card Game Definitive Edition.dll
+D:\ArielGG\Universidad\Programación\Regular Card Game Definitive Edition\bin\Debug\net6.0\Regular Card Game Definitive Edition.exe
+D:\ArielGG\Universidad\Programación\Regular Card Game Definitive Edition\bin\Debug\net6.0\Regular Card Game Definitive Edition.deps.json
+D:\ArielGG\Universidad\Programación\Regular Card Game Definitive Edition\bin\Debug\net6.0\Regular Card Game Definitive Edition.runtimeconfig.json
+D:\ArielGG\Universidad\Programación\Regular Card Game Definitive Edition\bin\Debug\net6.0\Regular Card Game Definitive Edition.dll
+D:\ArielGG\Universidad\Programación\Regular Card Game Definitive Edition\bin\Debug\net6.0\Regular Card Game Definitive Edition.pdb
+D:\ArielGG\Universidad\Programación\Regular Card Game Definitive Edition\obj\Debug\net6.0\Regular Card Game Definitive Edition.csproj.AssemblyReference.cache
+D:\ArielGG\Universidad\Programación\Regular Card Game Definitive Edition\obj\Debug\net6.0\Regular Card Game Definitive Edition.GeneratedMSBuildEditorConfig.editorconfig
+D:\ArielGG\Universidad\Programación\Regular Card Game Definitive Edition\obj\Debug\net6.0\Regular Card Game Definitive Edition.AssemblyInfoInputs.cache
+D:\ArielGG\Universidad\Programación\Regular Card Game Definitive Edition\obj\Debug\net6.0\Regular Card Game Definitive Edition.AssemblyInfo.cs
+D:\ArielGG\Universidad\Programación\Regular Card Game Definitive Edition\obj\Debug\net6.0\Regular Card Game Definitive Edition.csproj.CoreCompileInputs.cache
+D:\ArielGG\Universidad\Programación\Regular Card Game Definitive Edition\obj\Debug\net6.0\Regular Card Game Definitive Edition.dll
+D:\ArielGG\Universidad\Programación\Regular Card Game Definitive Edition\obj\Debug\net6.0\refint\Regular Card Game Definitive Edition.dll
+D:\ArielGG\Universidad\Programación\Regular Card Game Definitive Edition\obj\Debug\net6.0\Regular Card Game Definitive Edition.pdb
+D:\ArielGG\Universidad\Programación\Regular Card Game Definitive Edition\obj\Debug\net6.0\Regular Card Game Definitive Edition.genruntimeconfig.cache
+D:\ArielGG\Universidad\Programación\Regular Card Game Definitive Edition\obj\Debug\net6.0\ref\Regular Card Game Definitive Edition.dll
+E:\Programming\Projects\C#\upload\Regular Card Game Definitive Edition 7.0\bin\Debug\net6.0\Regular Card Game Definitive Edition.exe
+E:\Programming\Projects\C#\upload\Regular Card Game Definitive Edition 7.0\bin\Debug\net6.0\Regular Card Game Definitive Edition.deps.json
+E:\Programming\Projects\C#\upload\Regular Card Game Definitive Edition 7.0\bin\Debug\net6.0\Regular Card Game Definitive Edition.runtimeconfig.json
+E:\Programming\Projects\C#\upload\Regular Card Game Definitive Edition 7.0\bin\Debug\net6.0\Regular Card Game Definitive Edition.dll
+E:\Programming\Projects\C#\upload\Regular Card Game Definitive Edition 7.0\bin\Debug\net6.0\Regular Card Game Definitive Edition.pdb
+E:\Programming\Projects\C#\upload\Regular Card Game Definitive Edition 7.0\obj\Debug\net6.0\Regular Card Game Definitive Edition.csproj.AssemblyReference.cache
+E:\Programming\Projects\C#\upload\Regular Card Game Definitive Edition 7.0\obj\Debug\net6.0\Regular Card Game Definitive Edition.GeneratedMSBuildEditorConfig.editorconfig
+E:\Programming\Projects\C#\upload\Regular Card Game Definitive Edition 7.0\obj\Debug\net6.0\Regular Card Game Definitive Edition.AssemblyInfoInputs.cache
+E:\Programming\Projects\C#\upload\Regular Card Game Definitive Edition 7.0\obj\Debug\net6.0\Regular Card Game Definitive Edition.AssemblyInfo.cs
+E:\Programming\Projects\C#\upload\Regular Card Game Definitive Edition 7.0\obj\Debug\net6.0\Regular Card Game Definitive Edition.csproj.CoreCompileInputs.cache
+E:\Programming\Projects\C#\upload\Regular Card Game Definitive Edition 7.0\obj\Debug\net6.0\Regular Card Game Definitive Edition.dll
+E:\Programming\Projects\C#\upload\Regular Card Game Definitive Edition 7.0\obj\Debug\net6.0\refint\Regular Card Game Definitive Edition.dll
+E:\Programming\Projects\C#\upload\Regular Card Game Definitive Edition 7.0\obj\Debug\net6.0\Regular Card Game Definitive Edition.pdb
+E:\Programming\Projects\C#\upload\Regular Card Game Definitive Edition 7.0\obj\Debug\net6.0\Regular Card Game Definitive Edition.genruntimeconfig.cache
+E:\Programming\Projects\C#\upload\Regular Card Game Definitive Edition 7.0\obj\Debug\net6.0\ref\Regular Card Game Definitive Edition.dll
+E:\Programming\Projects\C#\Regular Card Game Definitive Edition\Regular Card Game\bin\Debug\net6.0\Regular Card Game Definitive Edition.exe
+E:\Programming\Projects\C#\Regular Card Game Definitive Edition\Regular Card Game\bin\Debug\net6.0\Regular Card Game Definitive Edition.deps.json
+E:\Programming\Projects\C#\Regular Card Game Definitive Edition\Regular Card Game\bin\Debug\net6.0\Regular Card Game Definitive Edition.runtimeconfig.json
+E:\Programming\Projects\C#\Regular Card Game Definitive Edition\Regular Card Game\bin\Debug\net6.0\Regular Card Game Definitive Edition.dll
+E:\Programming\Projects\C#\Regular Card Game Definitive Edition\Regular Card Game\bin\Debug\net6.0\Regular Card Game Definitive Edition.pdb
+E:\Programming\Projects\C#\Regular Card Game Definitive Edition\Regular Card Game\obj\Debug\net6.0\Regular Card Game Definitive Edition.csproj.AssemblyReference.cache
+E:\Programming\Projects\C#\Regular Card Game Definitive Edition\Regular Card Game\obj\Debug\net6.0\Regular Card Game Definitive Edition.GeneratedMSBuildEditorConfig.editorconfig
+E:\Programming\Projects\C#\Regular Card Game Definitive Edition\Regular Card Game\obj\Debug\net6.0\Regular Card Game Definitive Edition.AssemblyInfoInputs.cache
+E:\Programming\Projects\C#\Regular Card Game Definitive Edition\Regular Card Game\obj\Debug\net6.0\Regular Card Game Definitive Edition.AssemblyInfo.cs
+E:\Programming\Projects\C#\Regular Card Game Definitive Edition\Regular Card Game\obj\Debug\net6.0\Regular Card Game Definitive Edition.csproj.CoreCompileInputs.cache
+E:\Programming\Projects\C#\Regular Card Game Definitive Edition\Regular Card Game\obj\Debug\net6.0\Regular Card Game Definitive Edition.dll
+E:\Programming\Projects\C#\Regular Card Game Definitive Edition\Regular Card Game\obj\Debug\net6.0\refint\Regular Card Game Definitive Edition.dll
+E:\Programming\Projects\C#\Regular Card Game Definitive Edition\Regular Card Game\obj\Debug\net6.0\Regular Card Game Definitive Edition.pdb
+E:\Programming\Projects\C#\Regular Card Game Definitive Edition\Regular Card Game\obj\Debug\net6.0\Regular Card Game Definitive Edition.genruntimeconfig.cache
+E:\Programming\Projects\C#\Regular Card Game Definitive Edition\Regular Card Game\obj\Debug\net6.0\ref\Regular Card Game Definitive Edition.dll
+C:\Users\Alex\Documents\Developing\Projects\C#\Regular Card Game Definitive Edition\Regular Card Game\bin\Debug\net6.0\Regular Card Game Definitive Edition.exe
+C:\Users\Alex\Documents\Developing\Projects\C#\Regular Card Game Definitive Edition\Regular Card Game\bin\Debug\net6.0\Regular Card Game Definitive Edition.deps.json
+C:\Users\Alex\Documents\Developing\Projects\C#\Regular Card Game Definitive Edition\Regular Card Game\bin\Debug\net6.0\Regular Card Game Definitive Edition.runtimeconfig.json
+C:\Users\Alex\Documents\Developing\Projects\C#\Regular Card Game Definitive Edition\Regular Card Game\bin\Debug\net6.0\Regular Card Game Definitive Edition.dll
+C:\Users\Alex\Documents\Developing\Projects\C#\Regular Card Game Definitive Edition\Regular Card Game\bin\Debug\net6.0\Regular Card Game Definitive Edition.pdb
+C:\Users\Alex\Documents\Developing\Projects\C#\Regular Card Game Definitive Edition\Regular Card Game\obj\Debug\net6.0\Regular Card Game Definitive Edition.csproj.AssemblyReference.cache
+C:\Users\Alex\Documents\Developing\Projects\C#\Regular Card Game Definitive Edition\Regular Card Game\obj\Debug\net6.0\Regular Card Game Definitive Edition.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Alex\Documents\Developing\Projects\C#\Regular Card Game Definitive Edition\Regular Card Game\obj\Debug\net6.0\Regular Card Game Definitive Edition.AssemblyInfoInputs.cache
+C:\Users\Alex\Documents\Developing\Projects\C#\Regular Card Game Definitive Edition\Regular Card Game\obj\Debug\net6.0\Regular Card Game Definitive Edition.AssemblyInfo.cs
+C:\Users\Alex\Documents\Developing\Projects\C#\Regular Card Game Definitive Edition\Regular Card Game\obj\Debug\net6.0\Regular Card Game Definitive Edition.csproj.CoreCompileInputs.cache
+C:\Users\Alex\Documents\Developing\Projects\C#\Regular Card Game Definitive Edition\Regular Card Game\obj\Debug\net6.0\Regular Card Game Definitive Edition.dll
+C:\Users\Alex\Documents\Developing\Projects\C#\Regular Card Game Definitive Edition\Regular Card Game\obj\Debug\net6.0\refint\Regular Card Game Definitive Edition.dll
+C:\Users\Alex\Documents\Developing\Projects\C#\Regular Card Game Definitive Edition\Regular Card Game\obj\Debug\net6.0\Regular Card Game Definitive Edition.pdb
+C:\Users\Alex\Documents\Developing\Projects\C#\Regular Card Game Definitive Edition\Regular Card Game\obj\Debug\net6.0\Regular Card Game Definitive Edition.genruntimeconfig.cache
+C:\Users\Alex\Documents\Developing\Projects\C#\Regular Card Game Definitive Edition\Regular Card Game\obj\Debug\net6.0\ref\Regular Card Game Definitive Edition.dll
+C:\Users\Alex\Documents\Developing\Projects\C#\Regular Card Game (Console Version)\bin\Debug\net6.0\Regular Card Game Definitive Edition.exe
+C:\Users\Alex\Documents\Developing\Projects\C#\Regular Card Game (Console Version)\bin\Debug\net6.0\Regular Card Game Definitive Edition.deps.json
+C:\Users\Alex\Documents\Developing\Projects\C#\Regular Card Game (Console Version)\bin\Debug\net6.0\Regular Card Game Definitive Edition.runtimeconfig.json
+C:\Users\Alex\Documents\Developing\Projects\C#\Regular Card Game (Console Version)\bin\Debug\net6.0\Regular Card Game Definitive Edition.dll
+C:\Users\Alex\Documents\Developing\Projects\C#\Regular Card Game (Console Version)\bin\Debug\net6.0\Regular Card Game Definitive Edition.pdb
+C:\Users\Alex\Documents\Developing\Projects\C#\Regular Card Game (Console Version)\obj\Debug\net6.0\Regular Card Game Definitive Edition.csproj.AssemblyReference.cache
+C:\Users\Alex\Documents\Developing\Projects\C#\Regular Card Game (Console Version)\obj\Debug\net6.0\Regular Card Game Definitive Edition.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Alex\Documents\Developing\Projects\C#\Regular Card Game (Console Version)\obj\Debug\net6.0\Regular Card Game Definitive Edition.AssemblyInfoInputs.cache
+C:\Users\Alex\Documents\Developing\Projects\C#\Regular Card Game (Console Version)\obj\Debug\net6.0\Regular Card Game Definitive Edition.AssemblyInfo.cs
+C:\Users\Alex\Documents\Developing\Projects\C#\Regular Card Game (Console Version)\obj\Debug\net6.0\Regular Card Game Definitive Edition.csproj.CoreCompileInputs.cache
+C:\Users\Alex\Documents\Developing\Projects\C#\Regular Card Game (Console Version)\obj\Debug\net6.0\Regular Card Game Definitive Edition.dll
+C:\Users\Alex\Documents\Developing\Projects\C#\Regular Card Game (Console Version)\obj\Debug\net6.0\refint\Regular Card Game Definitive Edition.dll
+C:\Users\Alex\Documents\Developing\Projects\C#\Regular Card Game (Console Version)\obj\Debug\net6.0\Regular Card Game Definitive Edition.pdb
+C:\Users\Alex\Documents\Developing\Projects\C#\Regular Card Game (Console Version)\obj\Debug\net6.0\Regular Card Game Definitive Edition.genruntimeconfig.cache
+C:\Users\Alex\Documents\Developing\Projects\C#\Regular Card Game (Console Version)\obj\Debug\net6.0\ref\Regular Card Game Definitive Edition.dll

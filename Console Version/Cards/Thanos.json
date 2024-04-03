@@ -1,0 +1,14 @@
+{
+  "name": "Thanos",
+  "life": 6,
+  "attack": 6,
+  "cost": 6,
+  "canAttack": false,
+  "effects": [
+    {
+      "when": "attacks",
+      "conditions": "1==1",
+      "actions": "{\n\tprint(\"I am...inevitable.\");affectOpponentLife(-getOpponentLife()/2);\n}\n"
+    }
+  ]
+}

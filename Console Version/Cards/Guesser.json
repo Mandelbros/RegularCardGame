@@ -1,0 +1,14 @@
+{
+  "name": "Guesser",
+  "life": 2,
+  "attack": 1,
+  "cost": 1,
+  "canAttack": false,
+  "effects": [
+    {
+      "when": "turnEnd",
+      "conditions": "1==1",
+      "actions": "{\n\tprint(\"I'm thinking in a number between 1 and 10...Guess it :).\");\na=random(1,10);\n\tc=0;\n\tb=input();\n\twhile(b!=a)\n\t{\n\t\tc=c\u002B1;\n\t\tif(b\u003Ca)\n\t\t{\n\t\t\tprint(\"I'm thinking in a number bigger than that.\");\n\t\t}\n\t\tif(b\u003Ea)\n\t\t{\n\t\t\tprint(\"I'm thinking in a number smaller than that.\");\n\t\t}\n\tb=input();\n\t}\n\taffectOpponentLife(-c);\n}\n"
+    }
+  ]
+}
