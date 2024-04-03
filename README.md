@@ -22,13 +22,13 @@
 4. [Lenguaje de programación](#lenguaje-de-programación)
 5. [Implementación del mini-lenguaje](#implementación-del-mini-lenguaje)
 
-<br>
+ 
 
 ## Instrucciones para la ejecución
 
 Para jugar tan solo necesitas instalar una versión 6.0.102 o superior de DotNet, y abrir el archivo `Regular Card Game.bat` presente en la carpeta raíz del juego.
 
-<br>
+<br> 
 
 ## Breve descripción de una partida
 
