@@ -22,6 +22,7 @@
 4. [Lenguaje de programación](#lenguaje-de-programación)
 5. [Implementación del mini-lenguaje](#implementación-del-mini-lenguaje)
 
+<br>
 
 ## Instrucciones para la ejecución
 
