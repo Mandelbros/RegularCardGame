@@ -1,0 +1,198 @@
+﻿<link href="css/ide.css" rel="stylesheet" />
+
+<div id="effect">
+    <button id="deleteButton" @onclick="onDelete">🗙</button>
+    <p><b>When</b></p>
+    <select name="when" id="when" @bind=when>
+        <option value="placed">Card is placed on field</option>
+        <option value="attacks">Card attacks</option>
+        <option value="attacked">Card gets attacked</option>
+        <option value="destroyed">Card gets destroyed</option>
+        <option value="turnBegin">At the beginning of each turn that the card is on the field</option>
+        <option value="turnEnd">At the end of each turn that the card is on the field</option>
+    </select>
+    <br/>
+    <br/>
+
+    <p><b>Conditions</b></p>
+    <div class="line">
+        @foreach(Token token in tokenizeConditions()){
+            <p style="color:@token.color();">
+                @token.value
+            </p>
+        }
+        <input id="conditionsInput" @bind=@conditionsChange @bind:event="oninput" @onkeydown="delConditions" @onkeyup="changeConditions"/>
+    </div>
+    <br/>
+
+    <p><b>Actions</b></p>
+    @foreach(List<Token> line in tokenize()){
+        <div class="line">
+            @foreach(Token token in line){
+                @if(token.type=="TAB"){
+                    <div class="tab"></div>
+                }
+                <p style="color:@token.color();">
+                    @if(token.type=="WHILE" || token.type=="IF"){
+                        @token.value.ToLower()
+                    }
+                    @if(token.type!="WHILE" && token.type!="IF"){
+                        @token.value
+                    }
+                </p>
+            }
+        </div>
+    }
+    @if(curError!=""){
+        <div class="line">
+            <p>@actions</p>
+        </div>
+    }
+    <input id="codeInput" @bind="curChange" @bind:event="oninput" @onkeyup="@Enter" @onkeydown="@delActions"/>
+    <button id="changeCodeButton" @onclick="changeCode">+</button>
+    <p>@curError</p>
+</div>
+<p>@error</p>
+
+@code {
+    private string _actions="{}";
+    private string _when="placed";
+    private string _conditions="1==1";
+    private string conditionsChange="";
+
+    [Parameter]
+    public string actions { 
+        get => _actions; 
+        set{
+            if(_actions==value)return;
+            _actions=value;
+            actionsChanged.InvokeAsync(value);
+        } 
+    }
+    [Parameter]
+    public EventCallback<string> actionsChanged { get; set; }
+
+    [Parameter]
+    public string when { 
+        get => _when; 
+        set{
+            if(_when==value)return;
+            _when=value;
+            whenChanged.InvokeAsync(value);
+        } 
+    }
+    [Parameter]
+    public EventCallback<string> whenChanged { get; set; }
+
+    [Parameter]
+    public string conditions { 
+        get => _conditions; 
+        set{
+            if(_conditions==value)return;
+            _conditions=value;
+            conditionsChanged.InvokeAsync(value);
+        } 
+    }
+    [Parameter]
+    public EventCallback<string> conditionsChanged { get; set; }
+
+    string error="";
+    [Parameter] 
+    public EventCallback onDelete { get; set; }
+    string curChange="";
+    string curError="";
+
+    List<Token> tokenizeConditions(){
+        try{
+            Lexer lexer=new Lexer(conditions);
+            Parser parser=new Parser(lexer);
+            AST node=parser.booleanExpr();
+            parser.eat("EOF");
+            return node.tokenize();
+        }
+        catch(Exception e){
+            Token token=new Token("",conditions);
+            List<Token> ret=new List<Token>();
+            ret.Add(token);
+            return ret;
+        }
+    }
+
+    List<List<Token>> tokenize(){
+        Lexer lexer=new Lexer(actions);
+        Parser parser=new Parser(lexer);
+        List<Token> allTokens=parser.parse().tokenize();
+        List<Token> curLine=new List<Token>();
+        List<List<Token>>lines=new List<List<Token>>();
+        int tabLevel=0;
+        bool newLine=true;
+        foreach(Token token in allTokens){
+            if(token.type=="}")tabLevel--;
+            if(newLine){
+                for(int i=0;i<tabLevel;i++){
+                    curLine.Add(new Token("TAB",""));
+                }
+                newLine=false;
+            }
+            if(token.type=="ENDL"){
+                lines.Add(curLine);
+                curLine=new List<Token>();
+                newLine=true;
+            }
+            else{
+                curLine.Add(token);
+            }
+            if(token.type=="{")tabLevel++;
+        }
+        try{lines.RemoveAt(0);}catch(Exception e){}
+        try{lines.RemoveAt(0);}catch(Exception e){}
+        try{lines.RemoveAt(lines.Count-1);}catch(Exception e){}
+        curError=parser.curError;
+        return lines;
+    }
+
+    void changeCode(){
+        while(true){
+            if(actions[actions.Length-1]=='}'){
+                actions=actions.Substring(0,actions.Length-1);
+                break;
+            }
+            else{
+                actions=actions.Substring(0,actions.Length-1);
+            }
+        }
+        actions+=curChange+"}";
+        curChange="";
+    }
+
+    private void Enter(KeyboardEventArgs e) {
+        if (e.Code == "Enter" || e.Code == "NumpadEnter")changeCode();
+    }
+
+    private void delActions(KeyboardEventArgs e) {
+        if(e.Code == "Backspace" && curChange==""){
+            while(true){
+                if(actions[actions.Length-1]=='}'){
+                    actions=actions.Substring(0,actions.Length-1);
+                    break;
+                }
+                else{
+                    actions=actions.Substring(0,actions.Length-1);
+                }
+            }
+            if(actions.Length>1)actions=actions.Substring(0,actions.Length-1);
+            actions+="}";
+        }
+    }
+
+    private void delConditions(KeyboardEventArgs e) {
+        if(e.Code == "Backspace"){
+            if(conditions.Length>0)conditions=conditions.Substring(0,conditions.Length-1);
+        }
+    }
+
+    void changeConditions(){
+        conditions+=conditionsChange;
+        conditionsChange="";
+    }
+}

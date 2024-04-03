@@ -1,0 +1,17 @@
+{
+  "name": "Erathostenes",
+  "life": 2,
+  "attack": 5,
+  "cost": 3,
+  "canAttack": false,
+  "effects": [
+    {
+      "when": "placed",
+      "conditions": "1==1",
+      "actions": "{i=2; print(\u0022Prime numbers lesser than 100 are:\u0022); while(i\u003C100){ \tj=2; \tok=1; \twhile(j*j\u003C=i) \t{ \t\tif(i%j==0){ \t\t\tok=0; \t\t\tbreak(); \t\t} \t\tj=j\u002B1; \t} \tif(ok==1) \t{ \t\toutput(i); \t} \ti=i\u002B1; }}"
+    }
+  ],
+  "memory": {},
+  "description": "Tells you some prime numbers. Not that it will help you a lot in a card game, but who doesn\u0027t like prime numbers :D ?",
+  "img": "Erathostenes.png"
+}

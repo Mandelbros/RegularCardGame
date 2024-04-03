@@ -1,0 +1,22 @@
+{
+  "name": "Fractal\u00EDn",
+  "life": 2,
+  "attack": 8,
+  "cost": 4,
+  "canAttack": false,
+  "effects": [
+    {
+      "when": "attacks",
+      "conditions": "1==1",
+      "actions": "{a=getAlliedAttack(getMyPos())/2;output(a); while(a\u003E0 \u0026\u0026 getEnemiesCount()\u003E0) {  i=random(1,7);   if(thereIsEnemy(i)==1)   {     affectEnemyLife(i,-a);     a=a/2;   } }}"
+    },
+    {
+      "when": "placed",
+      "conditions": "1==1",
+      "actions": "{myAttack=getAlliedAttack  (  getMyPos  (  )  )  /  2  ;output(myAttack);}"
+    }
+  ],
+  "memory": {},
+  "description": "Al hacer un da\u00F1o X a una carta, rebota hacia otra carta aleatoria y hace un da\u00F1o X/2, y as\u00ED sucesivamente hasta que el da\u00F1o llegue a 0.",
+  "img": "Fractalin.png"
+}

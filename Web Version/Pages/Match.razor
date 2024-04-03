@@ -1,0 +1,240 @@
+﻿@page "/match"
+<link href="css/match.css" rel="stylesheet" />
+<PageTitle>Regular Card Game</PageTitle>
+
+<div id="mainContainer">
+    <div id=background></div>
+    <a href="/match menu" id="backButton">Back</a>
+    <svg id="attackArrow">
+    </svg>
+    @if(Game.match.current==0){
+        <div id="player0Outline" class="playerOutline"></div>
+    }
+    @if(Game.match.current==1){
+        <div id="player1Outline" class="playerOutline"></div>
+    }
+    <div id="eventsLog">
+        @foreach(string s in Commands.eventLog){
+            <p>- @s</p>
+        }
+    </div>
+    <div id="player1Image" class="playerImage" style=@getImageStyle(Game.match.players[1].image)></div>
+    <label id="player1Health" class="playerHealth" @onclick="()=>attacking(1,7)">@getPlayerHealth(1)</label>
+    <label id="player1Mana" class="playerMana">@Game.match.players[1].mana</label>
+    <div id="player0Image" class="playerImage" style=@getImageStyle(Game.match.players[0].image)></div>
+    <label id="player0Health" class="playerHealth" @onclick="()=>attacking(0,7)">@getPlayerHealth(0)</label>
+    <label id="player0Mana" class="playerMana">@Game.match.players[0].mana</label>
+    <button id="turnButton" style=@getImageStyle("End Turn Button.png") @onclick="endTurn"></button>
+    <div id="player1Hand">
+        @for(int i=0;i<Game.match.players[1].hand.Count;i++){
+            var index=i;
+            <card @onclick="()=>placeCard(1,index)" @onmouseover="()=>setHoveredCard(1,index,false)">
+                @if(Game.match.current==1 && Game.match.players[1].hand[i].cost<=Game.match.players[1].mana){
+                    <div class="cardFrameOutline">
+                    </div>
+                }
+                <div class="cardImage" style=@getImageStyle(@Game.match.players[1].hand[i].img)>
+                </div>
+                <div class="cardFrame">
+                    <label class="manaText">@Game.match.players[1].hand[i].cost</label>
+                    <label class="attackText">@Game.match.players[1].hand[i].attack</label>
+                    <label class="healthText">@Game.match.players[1].hand[i].life</label>
+                    <label class="descriptionText">@Game.match.players[1].hand[i].description</label>
+                    <label class="nameText">@Game.match.players[1].hand[i].name</label>
+                </div>
+            </card>
+        }
+    </div>
+    <div id="player1Field">
+        @for(int i=0;i<7;i++){
+            @if(Game.match.players[1].field[i]!=null){
+                var index=i;
+                <card @onclick="()=>attacking(1,index)" id=@getId(1,index) @onmouseover="()=>setHoveredCard(1,index,true)">
+                    @if(Game.match.current==1 && Game.match.players[1].field[i].canAttack){
+                        @if(Game.match.attackerIndex==index){
+                            <div class="cardFrameOutline attacker"></div>
+                        }
+                        @if(Game.match.attackerIndex!=index){
+                            <div class="cardFrameOutline"></div>
+                        }
+                    }
+                    <div class="cardImage" style=@getImageStyle(@Game.match.players[1].field[i].img)>
+                    </div>
+                    <div class="cardFrame">
+                        <label class="manaText">@Game.match.players[1].field[i].cost</label>
+                        <label class="attackText">@Game.match.players[1].field[i].attack</label>
+                        <label class="healthText">@getFieldCardHealth(1,index)</label>
+                        <label class="descriptionText">@Game.match.players[1].field[i].description</label>
+                        <label class="nameText">@Game.match.players[1].field[i].name</label>
+                    </div>
+                </card>
+            }
+            @if(Game.match.players[1].field[i]==null){
+                <div class="fieldCell">
+                </div>
+            }
+        }
+    </div>
+    <div id="player0Field">
+        @for(int i=0;i<7;i++){
+            @if(Game.match.players[0].field[i]!=null){
+                var index=i;
+                <card @onclick="()=>attacking(0,index)" id=@getId(0,index) @onmouseover="()=>setHoveredCard(0,index,true)">
+                    @if(Game.match.current==0 && Game.match.players[0].field[i].canAttack){
+                        @if(Game.match.attackerIndex==index){
+                            <div class="cardFrameOutline attacker"></div>
+                        }
+                        @if(Game.match.attackerIndex!=index){
+                            <div class="cardFrameOutline"></div>
+                        }
+                    }
+                    <div class="cardImage" style=@getImageStyle(@Game.match.players[0].field[i].img)>
+                    </div>
+                    <div class="cardFrame">
+                        <label class="manaText">@Game.match.players[0].field[i].cost</label>
+                        <label class="attackText">@Game.match.players[0].field[i].attack</label>
+                        <label class="healthText">@getFieldCardHealth(0,index)</label>
+                        <label class="descriptionText">@Game.match.players[0].field[i].description</label>
+                        <label class="nameText">@Game.match.players[0].field[i].name</label>
+                    </div>
+                </card>
+            }
+            @if(Game.match.players[0].field[i]==null){
+                <div class="fieldCell">
+                </div>
+            }
+        }
+    </div>
+    <div id="player0Hand">
+        @for(int i=0;i<Game.match.players[0].hand.Count;i++){
+            var index=i;
+            <card @onclick="()=>placeCard(0,index)" @onmouseover="()=>setHoveredCard(0,index,false)">
+                @if(Game.match.current==0 && Game.match.players[0].hand[i].cost<=Game.match.players[0].mana){
+                    <div class="cardFrameOutline">
+                    </div>
+                }
+                <div class="cardImage" style=@getImageStyle(@Game.match.players[0].hand[i].img)>
+                </div>
+                <div class="cardFrame">
+                    <label class="manaText">@Game.match.players[0].hand[i].cost</label>
+                    <label class="attackText">@Game.match.players[0].hand[i].attack</label>
+                    <label class="healthText">@Game.match.players[0].hand[i].life</label>
+                    <label class="descriptionText">@Game.match.players[0].hand[i].description</label>
+                    <label class="nameText">@Game.match.players[0].hand[i].name</label>
+                </div>
+            </card>
+        }
+    </div>
+    @if(Game.hoveredCard!=null){
+        <card id="hoveredCard">
+            <div class="cardImage" style=@getImageStyle(@Game.hoveredCard.img)>
+            </div>
+            <div class="cardFrame">
+                <label class="manaText">@Game.hoveredCard.cost</label>
+                <label class="attackText">@Game.hoveredCard.attack</label>
+                <label class="healthText">@Game.hoveredCard.life</label>
+                <label class="descriptionText">@Game.hoveredCard.description</label>
+                <label class="nameText">@Game.hoveredCard.name</label>
+            </div>
+        </card>
+    }
+    @if(Game.hoveredCard!=null){
+        <div id="effectsContainer">
+            @foreach(Effect effect in @Game.hoveredCard.effects){
+                <EffectDisplay actions=@effect.actions when=@effect.when conditions=@effect.conditions/>
+            }
+        </div>
+    }
+    @if(Game.gameOver){
+        <div id="gameOver">
+            <div id="popup">
+                @if(Game.match.players[0].life<=0){
+                    <h1>@Game.match.players[1].name wins!</h1>
+                }
+                @if(Game.match.players[1].life<=0){
+                    <h1>@Game.match.players[0].name wins!</h1>
+                }
+                <div class="flexer">
+                    <a href="/">Back to Main Menu</a>
+                    <a href="/match menu">Play again</a>
+                </div>
+            </div>
+        </div>
+        <audio autoplay><source src="/audios/win.wav" /></audio>
+    }
+    <audio autoplay loop id="musicAudio"><source src="/audios/Match music.mp3"/></audio>
+</div>
+
+@code {
+    int[] playerHealth=new int[2]{30,30};
+    bool [,] thereIsfieldCard=new bool[2,7]{{false,false,false,false,false,false,false},{false,false,false,false,false,false,false}};
+    int [,] fieldCardHealth=new int[2,7]{{0,0,0,0,0,0,0},{0,0,0,0,0,0,0}};
+    bool updating=false;
+    string descPlusEffects="";
+
+    protected override async Task OnInitializedAsync(){
+        Game.Main();
+    }
+
+    int getPlayerHealth(int id){
+        if(!updating)update();
+        if(playerHealth[id]==Game.match.players[id].life)return playerHealth[id];
+        if(playerHealth[id]<Game.match.players[id].life)playerHealth[id]++;
+        else playerHealth[id]--;
+        return playerHealth[id];
+    }
+
+    int getFieldCardHealth(int id,int index){
+        if(!updating)update();
+        if(!thereIsfieldCard[id,index]){
+            thereIsfieldCard[id,index]=true;
+            fieldCardHealth[id,index]=Game.match.players[id].field[index].life;
+        }
+        if(fieldCardHealth[id,index]==Game.match.players[id].field[index].life)return fieldCardHealth[id,index];
+        if(fieldCardHealth[id,index]<Game.match.players[id].field[index].life)fieldCardHealth[id,index]++;
+        else fieldCardHealth[id,index]--;
+        if(fieldCardHealth[id,index]<=0)thereIsfieldCard[id,index]=false;
+        return fieldCardHealth[id,index];
+    }
+
+    void endTurn(){
+        Game.match.endTurn();
+    }
+
+    string getImageStyle(string img){
+        return "background:url('images/"+img+"');background-position: center;background-size: contain;background-repeat: no-repeat;";
+    }
+
+    void placeCard(int id,int index){
+        Game.match.placeCard(id,index);
+    }
+
+    void attacking(int id,int index){
+        Game.match.attacking(id,index);
+    }
+
+    string getCursorX(){
+        return "3px";
+    }
+
+    string getId(int id,int index){
+        if(id==Game.match.current && index==Game.match.attackerIndex)return "attacker";
+        return "";
+    }
+
+    void setHoveredCard(int id,int index,bool onField){
+        Game.setHoveredCard(id,index,onField);
+        descPlusEffects=Game.hoveredCard.description+"\nEffects:";
+        foreach(Effect effect in Game.hoveredCard.effects){
+            descPlusEffects+="\nWHEN: "+effect.when+"\nCONDITIONS: "+effect.conditions+"\nACTIONS: "+effect.actions;
+        }
+    }
+
+    private async Task update(){
+        updating=true;
+        while(true){
+            await Task.Delay(40);
+            StateHasChanged();
+        }
+    }
+}

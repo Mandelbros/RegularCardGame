@@ -1,0 +1,16 @@
+{
+  "name": "Black Hole",
+  "life": 1,
+  "attack": 0,
+  "cost": 1,
+  "canAttack": false,
+  "effects": [
+    {
+      "when": "placed",
+      "conditions": "1==1",
+      "actions": "{\n\ti=1;\n\twhile(i\u003C=7)\n\t{\n\t\taffectAlliedLife(i,-100000000);\n\t\taffectEnemyLife(i,-100000000);\n\t\ti=i\u002B1;\n\t}\n}\n"
+    }
+  ],
+  "description": "Se traga tó'.",
+  "img": "Black Hole.png"
+}

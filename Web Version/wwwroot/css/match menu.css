@@ -1,0 +1,73 @@
+#buttons{
+    display: flex;
+	justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+}
+
+#usersSelecter{
+    position: absolute;
+    top: 0;
+    display: flex;
+    width: 100%;
+	justify-content: space-around;
+    align-items: center;
+    padding: 5%;
+}
+
+.userImage{
+    background: url("../images/User.png");
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+    height: 80%;
+    border-radius: 9px;
+    /* border: solid 2px black; */
+    box-shadow: 3px 3px 4px rgba(0, 0, 0, 0.7);
+    margin: 5%;
+}
+
+#versusText{
+    font-size: 5vw;
+    font-family: "Algerian";
+    color: white;
+    animation: dance 2s infinite;
+    cursor: default;
+}
+
+@keyframes dance{
+	0% { transform: scale(1.0); }
+	10% { transform: scale(0.95); }
+	20% { transform: scale(1.2); }
+	40% { transform: scale(1.0); }
+	60% { transform: scale(1.2); }
+	80% { transform: scale(0.9); }
+	100% { transform: scale(1.0); }
+}
+
+.user{
+    width: fit-content;
+    height: 70vh;
+    background: rgb(30, 30, 30);
+	padding: 2vh;
+	border-radius: 7px;
+	box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+select{
+    display: block;
+    width: 22vw;
+    height: 4vh;
+    margin-top: 4px;
+    background: rgba(20, 20, 20, 1);
+    color: rgba(255, 255, 255, 0.8);
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+select:hover{
+    background: rgb(12, 12, 12);
+}

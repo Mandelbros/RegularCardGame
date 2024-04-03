@@ -1,0 +1,120 @@
+@page "/card editor"
+@using System.Text.Json; 
+
+<link href="css/card editor.css" rel="stylesheet" />
+
+<PageTitle>Regular Card Game</PageTitle>
+
+<div id="mainContainer">
+    <div id="existingCardsContainer">
+        <h1>Existing Cards</h1>
+        <div id="existingCards">
+            @foreach(Card card in getCards()){
+                <card @onclick="()=>setEditCard(card)">
+                    <div class="cardImage" style=@getImageStyle(@card.img)>
+                    </div>
+                    <div class="cardFrame">
+                        <label class="manaText">@card.cost</label>
+                        <label class="attackText">@card.attack</label>
+                        <label class="healthText">@card.life</label>
+                        <label class="descriptionText">@card.description</label>
+                        <label class="nameText">@card.name</label>
+                    </div>
+                </card>
+            }
+            <div id="newCard" @onclick="createCard">
+                <label>New card</label>
+            </div>
+        </div>
+    </div>
+    <div id="editorContainer">
+        <card id="editedCard">
+            <div class="cardImage" style=@getImageStyle(@editedCard.img)>
+            </div>
+            <div class="cardFrame">
+                <textarea class="descriptionText" @bind=editedCard.description />
+                <input max=99 min=0 type="number" class="manaText" @bind-value=editedCard.cost />
+                <input max=99 min=0 type="number" class="attackText" @bind-value=editedCard.attack />
+                <input max=99 min=0 type="number" class="healthText" @bind-value=editedCard.life>
+                <input type="text" class="nameText" @bind-value=editedCard.name />
+            </div>
+        </card>
+        <div id="imageInput">
+            <p>Image:</p>
+            <input type="text" @bind-value=editedCard.img/>
+        </div>
+        <h1><b>Effects</b>:</h1>
+        @for(int i=0;i<editedCard.effects.Count;i++){
+            var index=i;
+            <IDE @bind-actions=@editedCard.effects[index].actions @bind-when=@editedCard.effects[index].when @bind-conditions=@editedCard.effects[index].conditions onDelete="()=>deleteEffect(index)"/>
+        }
+        <div id="newEffect" @onclick="addEffect">
+            <p>+ New Effect</p>
+        </div>
+        <div id="stickyMenu">
+            @if(editing){
+                <button @onclick="save">Apply</button>
+                <button @onclick="delete">Delete</button>
+            }
+            @if(!editing){
+                <button @onclick="save">Create</button>
+            }
+            <a href="/">Back</a>
+        </div>
+    </div>
+</div>
+
+@code{
+    Card editedCard=new Card("New Card",0,0,0,new List<Effect>(),"A new card","Null.png");
+    string oldName;
+    bool editing=false;
+
+    string getImageStyle(string img){
+        return "background:url('images/"+img+"');background-position: center;background-size: contain;background-repeat: no-repeat;";
+    }
+
+    List<Card> getCards(){
+        List<Card> cards=new List<Card>();
+        List<string> names = new List<string> (Directory.GetFiles("./Cards/", "*.json", SearchOption.AllDirectories));
+            
+        for(int i=0 ; i<names.Count ; i++){
+            names[i]=names[i].Substring(8);
+            names[i]=names[i].Substring(0,names[i].Length-5);
+            string jsonString=File.ReadAllText("./Cards/"+names[i]+".json");
+            Card card=JsonSerializer.Deserialize<Card>(jsonString);
+            cards.Add(card);
+        }
+        return cards;
+    }
+
+    void setEditCard(Card card){
+        editedCard=card;
+        oldName=card.name;
+        editing=true;
+    }
+
+    void createCard(){
+        editedCard=new Card("New Card",0,0,0,new List<Effect>(),"A new card","Null.png");
+        editing=false;
+    }
+
+    void save(){
+        if(editing){
+            File.Delete("./Cards/"+oldName+".json");
+        }
+        editedCard.export("./Cards/"+editedCard.name+".json");
+        oldName=editedCard.name;
+    }
+
+    void delete(){
+        File.Delete("./Cards/"+oldName+".json");
+    }
+
+    void deleteEffect(int index){
+        editedCard.effects.RemoveAt(index);
+    }
+
+    void addEffect(){
+        editedCard.effects.Add(new Effect("placed","1==1","{}"));
+    }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "New Card",
+  "life": 0,
+  "attack": 0,
+  "cost": 0,
+  "canAttack": false,
+  "effects": [
+    {
+      "when": "placed",
+      "conditions": "1==1||a\u003C=3*4",
+      "actions": "{}"
+    }
+  ],
+  "memory": {},
+  "description": "A new card",
+  "img": "Null.png"
+}

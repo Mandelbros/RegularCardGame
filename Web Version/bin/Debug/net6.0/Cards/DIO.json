@@ -1,0 +1,17 @@
+{
+  "name": "DIO",
+  "life": 20,
+  "attack": 10,
+  "cost": 5,
+  "canAttack": false,
+  "effects": [
+    {
+      "when": "placed",
+      "conditions": "1==1",
+      "actions": "{}\n"
+    }
+  ],
+  "memory": {},
+  "description": "You were expecting a card, but it was me...DIO!!!",
+  "img": "DIO.png"
+}

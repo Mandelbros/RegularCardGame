@@ -1,0 +1,11 @@
+{
+  "name": "New Card",
+  "life": 0,
+  "attack": 0,
+  "cost": 0,
+  "canAttack": false,
+  "effects": [],
+  "memory": {},
+  "description": "A new card",
+  "img": "Null.png"
+}

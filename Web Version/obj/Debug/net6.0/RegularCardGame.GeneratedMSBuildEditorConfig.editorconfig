@@ -1,0 +1,79 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = RegularCardGame
+build_property.RootNamespace = RegularCardGame
+build_property.ProjectDir = c:\Users\abasb\OneDrive\Documents\_my docs\developing\projects\dotnet\Regular Card Game\Web Version\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = c:\Users\abasb\OneDrive\Documents\_my docs\developing\projects\dotnet\Regular Card Game\Web Version
+build_property._RazorSourceGeneratorDebug = 
+
+[c:/Users/abasb/OneDrive/Documents/_my docs/developing/projects/dotnet/Regular Card Game/Web Version/App.razor]
+build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/abasb/OneDrive/Documents/_my docs/developing/projects/dotnet/Regular Card Game/Web Version/Pages/CardEditor.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2FyZEVkaXRvci5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/abasb/OneDrive/Documents/_my docs/developing/projects/dotnet/Regular Card Game/Web Version/Pages/MainMenu.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTWFpbk1lbnUucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/abasb/OneDrive/Documents/_my docs/developing/projects/dotnet/Regular Card Game/Web Version/Pages/Match.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTWF0Y2gucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/abasb/OneDrive/Documents/_my docs/developing/projects/dotnet/Regular Card Game/Web Version/Pages/MatchMenu.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTWF0Y2hNZW51LnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/abasb/OneDrive/Documents/_my docs/developing/projects/dotnet/Regular Card Game/Web Version/Pages/OptionsMenu.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcT3B0aW9uc01lbnUucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/abasb/OneDrive/Documents/_my docs/developing/projects/dotnet/Regular Card Game/Web Version/Pages/UserEditor.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVXNlckVkaXRvci5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/abasb/OneDrive/Documents/_my docs/developing/projects/dotnet/Regular Card Game/Web Version/Shared/EffectDisplay.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXEVmZmVjdERpc3BsYXkucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/abasb/OneDrive/Documents/_my docs/developing/projects/dotnet/Regular Card Game/Web Version/Shared/IDE.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXElERS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/abasb/OneDrive/Documents/_my docs/developing/projects/dotnet/Regular Card Game/Web Version/_Imports.razor]
+build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/abasb/OneDrive/Documents/_my docs/developing/projects/dotnet/Regular Card Game/Web Version/Shared/MainLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5MYXlvdXQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-i6327g3y95
+
+[c:/Users/abasb/OneDrive/Documents/_my docs/developing/projects/dotnet/Regular Card Game/Web Version/Shared/NavMenu.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE5hdk1lbnUucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-pemj447myd
+
+[c:/Users/abasb/OneDrive/Documents/_my docs/developing/projects/dotnet/Regular Card Game/Web Version/Pages/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/abasb/OneDrive/Documents/_my docs/developing/projects/dotnet/Regular Card Game/Web Version/Pages/_Host.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX0hvc3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/abasb/OneDrive/Documents/_my docs/developing/projects/dotnet/Regular Card Game/Web Version/Pages/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX0xheW91dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 

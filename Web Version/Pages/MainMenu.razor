@@ -1,0 +1,22 @@
+@page "/"
+
+<link href="css/menu.css" rel="stylesheet" />
+
+<PageTitle>Regular Card Game</PageTitle>
+
+<audio autoplay loop id="musicAudio"><source src="/audios/Menu music.mp3" /></audio>
+<div id="mainContainer">
+    <h1>Regular Card Game</h1>
+    <a href="/match menu">Play</a>
+    <a href="/card editor">Card Editor</a>
+    <a href="/user editor">User Editor</a>
+    <a href="/options">Options</a>
+    <a href="#" @onclick="quit">Quit</a>
+    <div id="intro"></div>
+</div>
+
+@code{
+    public void quit(){
+        System.Environment.Exit(0);
+    }
+}

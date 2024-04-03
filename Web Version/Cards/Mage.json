@@ -1,0 +1,17 @@
+{
+  "name": "Mage",
+  "life": 1,
+  "attack": 1,
+  "cost": 1,
+  "canAttack": false,
+  "effects": [
+    {
+      "when": "turnEnd",
+      "conditions": "1==1",
+      "actions": "{\n\taffectOpponentLife(-3);}"
+    }
+  ],
+  "memory": {},
+  "description": "Soy muy dark jsjsjs.",
+  "img": "Mage.png"
+}

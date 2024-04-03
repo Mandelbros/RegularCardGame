@@ -1,0 +1,384 @@
+*{
+	padding: 0px;
+	margin: 0px;
+	transition: 0.3s;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#mainContainer{
+	width: calc(var(--vw, 1vw)*100);
+	height: calc(var(--vh, 1vh)*100);
+	background: url("../images/Battlefield.png");
+	background-position: center;
+	background-size:contain;
+	background-repeat: no-repeat;
+	position: relative;
+}
+
+#background{
+	position: absolute;
+	width: 100vw;
+	height: 100vh;
+	background: black;
+	z-index: -2;
+	top: 0;
+	left: 0;
+}
+
+#player1Hand,#player1Field,#player0Field,#player0Hand{
+	width: calc(var(--vw, 1vw)*100);
+	height: calc(var(--vh, 1vh)*28);
+	/* background: rgb(151, 138, 102); */
+	/* border: rgba(0, 0, 0, 0.404) 1px solid; */
+	display: flex;
+}
+
+#player1Field,#player0Field{
+	justify-content: center;
+	height: calc(var(--vh, 1vh)*22);
+}
+
+.fieldCell{
+	position: relative;
+	border: 1px dashed black;
+	border-radius: 5px;
+	width: calc(var(--vh, 1vh)*12);
+	height: calc(var(--vh, 1vh)*17);
+	margin: calc(var(--vh, 1vh)*1);
+}
+
+card{
+	position: relative;
+	width: calc(var(--vh, 1vh)*15.8);
+	height: calc(var(--vh, 1vh)*22);
+	margin: 0;
+	cursor: pointer;
+	animation: breath 1.5s ease-in-out infinite,pop 0.5s ease-in-out;
+}
+
+@keyframes breath{
+	0% { transform: scale(1.0); }
+	50% { transform: scale(1.03); }
+	100% { transform: scale(1.0); }
+}
+
+@keyframes pop{
+	0% { transform: scale(1.0); }
+	50% { transform: scale(1.2); }
+	100% { transform: scale(1.0); }
+}
+
+card:hover{
+	width: calc(var(--vh, 1vh)*17);
+	height: calc(var(--vh, 1vh)*25);
+}
+
+.cardFrame{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background: url("../images/Card Frame.png");
+	background-position: center;
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+.cardFrameOutline{
+	position: absolute;
+	width: 103%;
+	height: 103%;
+	top: -2.5%;
+	left: -2.5%;
+	background: url("../images/Card Frame Outline Green.png");
+	background-position: center;
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+.cardImage{
+	position: absolute;
+	width: 52%;
+	height: 50%;
+	left: 25%;
+	top: 6%;
+}
+
+card label{
+	cursor: pointer;
+	position: absolute;
+	color: white;
+	text-shadow: black 1px 1px 0.008px;
+	font-weight: bold;
+	text-align: center;
+	font-size: calc(var(--vh, 1vh)*2.2);
+}
+
+.manaText{
+	width: 30%;
+	top: 7.4%;
+	left: 2%;
+}
+
+.attackText{
+	width: 30%;
+	top: 80.5%;
+	left: 2.5%;
+}
+
+.healthText{
+	width: 30%;
+	top: 80.2%;
+	left: 69.6%;
+}
+
+.descriptionText{
+	width: 63%;
+	height: 25.9%;
+	top: 63.5%;
+	left: 20%;
+	font-size: calc(var(--vh, 1vh)*0.9);
+	overflow-y: scroll;
+}
+
+.nameText{
+	top: 49.5%;
+	left: 19%;
+	width: 65%;
+	font-size: calc(var(--vh, 1vh)*1.33);
+	transform:rotate(-7deg);
+}
+
+.playerImage{
+	width: calc(var(--vh, 1vh)*16);
+	height: calc(var(--vh, 1vh)*22);
+	position: absolute;
+	z-index: -1;
+	cursor: pointer;
+}
+
+.playerImage:hover{
+	filter: brightness(1.1);
+}
+
+#player0Image{
+	top: calc(var(--vh, 1vh)*67);
+	left: calc(var(--vw, 1vw)*47);
+}
+
+#player1Image{
+	top: calc(var(--vh, 1vh)*4);
+	left: calc(var(--vw, 1vw)*47);
+}
+
+.playerHealth,.playerMana{
+	position: absolute;
+	color: white;
+	width: calc(var(--vw, 1vw)*3);
+	text-shadow: black 1px 1px 2px;
+	font-weight: bold;
+	text-align: center;
+	font-size: calc(var(--vh, 1vh)*2.5);
+}
+
+#player0Health{
+	top: calc(var(--vh, 1vh)*84.5);
+	left: calc(var(--vw, 1vw)*52.5);
+	cursor: pointer;
+}
+
+#player1Health{
+	top: calc(var(--vh, 1vh)*21);
+	left: calc(var(--vw, 1vw)*52.4);
+	cursor: pointer;
+}
+
+#player0Mana{
+	top: calc(var(--vh, 1vh)*84.40);
+	left: calc(var(--vw, 1vw)*45.76);
+}
+
+#player1Mana{
+	top: calc(var(--vh, 1vh)*21);
+	left: calc(var(--vw, 1vw)*45.6);
+}
+
+#turnButton{
+	position: absolute;
+	top: calc(var(--vh, 1vh)*39.8);
+	left: calc(var(--vw, 1vw)*73.6);
+	height: calc(var(--vh, 1vh)*10);
+	width: calc(var(--vh, 1vh)*20);
+	border: none;
+	cursor: pointer;
+	animation: breath 1.5s ease-in-out infinite;
+}
+
+#turnButton:hover{
+	height: calc(var(--vh, 1vh)*10.2);
+	width: calc(var(--vh, 1vh)*20.2);
+	filter: brightness(1.1);
+}
+
+.playerOutline{
+	background: url("../images/Player Outline Gold.png");
+	background-position: center;
+	background-size: contain;
+	background-repeat: no-repeat;
+	width: calc(var(--vh, 1vh)*20.2);
+	height: calc(var(--vh, 1vh)*32.3);
+	position: absolute;
+	cursor: pointer;
+}
+
+#player0Outline{
+	top: calc(var(--vh, 1vh)*62.8);
+	left: calc(var(--vw, 1vw)*45.82);
+}
+
+#player1Outline{
+	top: calc(var(--vh, 1vh)*-0.7);
+	left: calc(var(--vw, 1vw)*45.6);
+}
+
+svg{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	bottom: 0;
+	display: none;
+}
+
+#eventsLog{
+	color: rgba(255, 255, 255, 0.7);
+	width: calc(var(--vw, 1vw)*16.7);
+	height: calc(var(--vh, 1vh)*40);
+	position: absolute;
+	top: calc(var(--vh, 1vh)*26);
+	left: calc(var(--vw, 1vw)*1);
+	background: rgba(0, 0, 0, 0.5);
+	border-radius: 7px;
+	padding: calc(var(--vw, 1vw)*0.9);
+	overflow-y: scroll;
+	font-size: calc(var(--vh, 1vh)*1.8);
+	overscroll-behavior-y: contain;
+	scroll-snap-type: y proximity;
+}
+
+#eventsLog>p:last-child{
+	scroll-snap-align: end;
+}
+
+#eventsLog p{
+    margin: 0;
+}
+
+#hoveredCard{
+	position: absolute;
+	top: 13%;
+	left: 88.3%;
+	transform: scale(2.2);
+	animation: none;
+	cursor: default;
+}
+
+#hoveredCard label{
+	cursor: default;
+}
+
+#hoveredCard:hover{
+	width: calc(var(--vh, 1vh)*15.8);
+	height: calc(var(--vh, 1vh)*22);
+}
+
+#effectsContainer{
+	font-size: calc(var(--vh, 1vh)*2);
+	color: white;
+	overflow-y: scroll;
+	position: absolute;
+	top: 48%;
+	left: 83.5%;
+	width: 16.2%;
+	height: 50%;
+}
+
+a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: calc(var(--vh, 1vh)*3);
+    color: white;
+    padding: 0px 12px;
+	border-radius: 8px;
+    background: #f2395a;
+    box-shadow: 1px 1px #d10e31,
+                 2px 2px #d10e31,
+                 3px 3px #d10e31,
+                 4px 4px #d10e31,
+                 5px 5px #890920,
+                 6px 6px #890920,
+                 7px 7px 10px rgba(0, 0, 0, 0.5);
+}
+
+a:hover{
+	background: #ff5f7c;
+    color: white;
+}
+
+#backButton{
+	position: absolute;
+	bottom: calc(var(--vh, 1vh)*2);
+	left: 77%;
+}
+
+#gameOver{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: calc(var(--vw, 1vw)*100);
+	height: calc(var(--vh, 1vh)*100);
+	background: rgba(0, 0, 0, 0.5);
+	color: white;
+	display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+	animation: appear 0.4s 1 ease-in-out;
+}
+
+@keyframes appear{
+	0% { transform: scale(0); }
+	100% { transform: scale(1.0); }
+}
+
+#popup{
+	width: 35%;
+	height: fit-content;
+	text-align: center;
+	background: rgba(0, 0, 0, 0.5);
+	border-radius: 5px;
+	padding: calc(var(--vw, 1vh)*1.5) 0;
+	animation: appear 0.5s 1 ease-in-out;
+}
+
+#popup h1{
+	font-weight: bolder;
+	margin: 0;
+	margin-bottom: calc(var(--vw, 1vh)*3);
+}
+
+#popup a{
+	margin: calc(var(--vw, 1vh)*1);
+}
+
+.flexer{
+    display: flex;
+	justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    margin-top: 1vh;
+}
+
+.attacker{
+	filter: hue-rotate(254deg) saturate(8.0);
+}

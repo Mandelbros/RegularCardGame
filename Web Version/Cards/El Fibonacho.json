@@ -1,0 +1,22 @@
+{
+  "name": "El Fibonacho",
+  "life": 3,
+  "attack": 2,
+  "cost": 2,
+  "canAttack": false,
+  "effects": [
+    {
+      "when": "placed",
+      "conditions": "1==1",
+      "actions": "{\n\tfib0=1;\n\tfib1=1;\n}\n"
+    },
+    {
+      "when": "turnBegin",
+      "conditions": "1==1",
+      "actions": "{\n\ttemp=fib1;\n\tfib1=fib0\u002Bfib1;\n\tfib0=temp;\n\taffectOpponentLife(-fib0);\n}\n"
+    }
+  ],
+  "memory": {},
+  "description": "1 1 2 3 5 8 13...",
+  "img": "El Fibonacho.png"
+}

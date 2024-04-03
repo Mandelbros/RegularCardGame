@@ -1,0 +1,253 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\abasb\\OneDrive\\Documents\\_my docs\\developing\\projects\\dotnet\\Regular Card Game\\Web Version\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\RegularCardGame.bundle.scp.css",
+      "PackagePath": "staticwebassets\\RegularCardGame.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\abasb\\OneDrive\\Documents\\_my docs\\developing\\projects\\dotnet\\Regular Card Game\\Web Version\\wwwroot\\audios\\Heal3.wav",
+      "PackagePath": "staticwebassets\\audios\\Heal3.wav"
+    },
+    {
+      "Id": "C:\\Users\\abasb\\OneDrive\\Documents\\_my docs\\developing\\projects\\dotnet\\Regular Card Game\\Web Version\\wwwroot\\audios\\Match music.mp3",
+      "PackagePath": "staticwebassets\\audios\\Match music.mp3"
+    },
+    {
+      "Id": "C:\\Users\\abasb\\OneDrive\\Documents\\_my docs\\developing\\projects\\dotnet\\Regular Card Game\\Web Version\\wwwroot\\audios\\Menu music.mp3",
+      "PackagePath": "staticwebassets\\audios\\Menu music.mp3"
+    },
+    {
+      "Id": "C:\\Users\\abasb\\OneDrive\\Documents\\_my docs\\developing\\projects\\dotnet\\Regular Card Game\\Web Version\\wwwroot\\audios\\Shake1.wav",
+      "PackagePath": "staticwebassets\\audios\\Shake1.wav"
+    },
+    {
+      "Id": "C:\\Users\\abasb\\OneDrive\\Documents\\_my docs\\developing\\projects\\dotnet\\Regular Card Game\\Web Version\\wwwroot\\audios\\attack.wav",
+      "PackagePath": "staticwebassets\\audios\\attack.wav"
+    },
+    {
+      "Id": "C:\\Users\\abasb\\OneDrive\\Documents\\_my docs\\developing\\projects\\dotnet\\Regular Card Game\\Web Version\\wwwroot\\audios\\win.wav",
+      "PackagePath": "staticwebassets\\audios\\win.wav"
+    },
+    {
+      "Id": "C:\\Users\\abasb\\OneDrive\\Documents\\_my docs\\developing\\projects\\dotnet\\Regular Card Game\\Web Version\\wwwroot\\audios\\win2.wav",
+      "PackagePath": "staticwebassets\\audios\\win2.wav"
+    },
+    {
+      "Id": "C:\\Users\\abasb\\OneDrive\\Documents\\_my docs\\developing\\projects\\dotnet\\Regular Card Game\\Web Version\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\abasb\\OneDrive\\Documents\\_my docs\\developing\\projects\\dotnet\\Regular Card Game\\Web Version\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\abasb\\OneDrive\\Documents\\_my docs\\developing\\projects\\dotnet\\Regular Card Game\\Web Version\\wwwroot\\css\\card editor.css",
+      "PackagePath": "staticwebassets\\css\\card editor.css"
+    },
+    {
+      "Id": "C:\\Users\\abasb\\OneDrive\\Documents\\_my docs\\developing\\projects\\dotnet\\Regular Card Game\\Web Version\\wwwroot\\css\\ide.css",
+      "PackagePath": "staticwebassets\\css\\ide.css"
+    },
+    {
+      "Id": "C:\\Users\\abasb\\OneDrive\\Documents\\_my docs\\developing\\projects\\dotnet\\Regular Card Game\\Web Version\\wwwroot\\css\\match menu.css",
+      "PackagePath": "staticwebassets\\css\\match menu.css"
+    },
+    {
+      "Id": "C:\\Users\\abasb\\OneDrive\\Documents\\_my docs\\developing\\projects\\dotnet\\Regular Card Game\\Web Version\\wwwroot\\css\\match.css",
+      "PackagePath": "staticwebassets\\css\\match.css"
+    },
+    {
+      "Id": "C:\\Users\\abasb\\OneDrive\\Documents\\_my docs\\developing\\projects\\dotnet\\Regular Card Game\\Web Version\\wwwroot\\css\\menu.css",
+      "PackagePath": "staticwebassets\\css\\menu.css"
+    },
+    {
+      "Id": "C:\\Users\\abasb\\OneDrive\\Documents\\_my docs\\developing\\projects\\dotnet\\Regular Card Game\\Web Version\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
+      "PackagePath": "staticwebassets\\css\\open-iconic"
+    },
+    {
+      "Id": "C:\\Users\\abasb\\OneDrive\\Documents\\_my docs\\developing\\projects\\dotnet\\Regular Card Game\\Web Version\\wwwroot\\css\\open-iconic\\ICON-LICENSE",
+      "PackagePath": "staticwebassets\\css\\open-iconic"
+    },
+    {
+      "Id": "C:\\Users\\abasb\\OneDrive\\Documents\\_my docs\\developing\\projects\\dotnet\\Regular Card Game\\Web Version\\wwwroot\\css\\open-iconic\\README.md",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\README.md"
+    },
+    {
+      "Id": "C:\\Users\\abasb\\OneDrive\\Documents\\_my docs\\developing\\projects\\dotnet\\Regular Card Game\\Web Version\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\abasb\\OneDrive\\Documents\\_my docs\\developing\\projects\\dotnet\\Regular Card Game\\Web Version\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.eot"
+    },
+    {
+      "Id": "C:\\Users\\abasb\\OneDrive\\Documents\\_my docs\\developing\\projects\\dotnet\\Regular Card Game\\Web Version\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.otf"
+    },
+    {
+      "Id": "C:\\Users\\abasb\\OneDrive\\Documents\\_my docs\\developing\\projects\\dotnet\\Regular Card Game\\Web Version\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.svg"
+    },
+    {
+      "Id": "C:\\Users\\abasb\\OneDrive\\Documents\\_my docs\\developing\\projects\\dotnet\\Regular Card Game\\Web Version\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.ttf"
+    },
+    {
+      "Id": "C:\\Users\\abasb\\OneDrive\\Documents\\_my docs\\developing\\projects\\dotnet\\Regular Card Game\\Web Version\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.woff"
+    },
+    {
+      "Id": "C:\\Users\\abasb\\OneDrive\\Documents\\_my docs\\developing\\projects\\dotnet\\Regular Card Game\\Web Version\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\abasb\\OneDrive\\Documents\\_my docs\\developing\\projects\\dotnet\\Regular Card Game\\Web Version\\wwwroot\\css\\user editor.css",
+      "PackagePath": "staticwebassets\\css\\user editor.css"
+    },
+    {
+      "Id": "C:\\Users\\abasb\\OneDrive\\Documents\\_my docs\\developing\\projects\\dotnet\\Regular Card Game\\Web Version\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\abasb\\OneDrive\\Documents\\_my docs\\developing\\projects\\dotnet\\Regular Card Game\\Web Version\\wwwroot\\images\\Alex.png",
+      "PackagePath": "staticwebassets\\images\\Alex.png"
+    },
+    {
+      "Id": "C:\\Users\\abasb\\OneDrive\\Documents\\_my docs\\developing\\projects\\dotnet\\Regular Card Game\\Web Version\\wwwroot\\images\\Ariel.png",
+      "PackagePath": "staticwebassets\\images\\Ariel.png"
+    },
+    {
+      "Id": "C:\\Users\\abasb\\OneDrive\\Documents\\_my docs\\developing\\projects\\dotnet\\Regular Card Game\\Web Version\\wwwroot\\images\\ArielChad.png",
+      "PackagePath": "staticwebassets\\images\\ArielChad.png"
+    },
+    {
+      "Id": "C:\\Users\\abasb\\OneDrive\\Documents\\_my docs\\developing\\projects\\dotnet\\Regular Card Game\\Web Version\\wwwroot\\images\\Battlefield.png",
+      "PackagePath": "staticwebassets\\images\\Battlefield.png"
+    },
+    {
+      "Id": "C:\\Users\\abasb\\OneDrive\\Documents\\_my docs\\developing\\projects\\dotnet\\Regular Card Game\\Web Version\\wwwroot\\images\\Black Hole.png",
+      "PackagePath": "staticwebassets\\images\\Black Hole.png"
+    },
+    {
+      "Id": "C:\\Users\\abasb\\OneDrive\\Documents\\_my docs\\developing\\projects\\dotnet\\Regular Card Game\\Web Version\\wwwroot\\images\\Card Frame Outline Green.png",
+      "PackagePath": "staticwebassets\\images\\Card Frame Outline Green.png"
+    },
+    {
+      "Id": "C:\\Users\\abasb\\OneDrive\\Documents\\_my docs\\developing\\projects\\dotnet\\Regular Card Game\\Web Version\\wwwroot\\images\\Card Frame.png",
+      "PackagePath": "staticwebassets\\images\\Card Frame.png"
+    },
+    {
+      "Id": "C:\\Users\\abasb\\OneDrive\\Documents\\_my docs\\developing\\projects\\dotnet\\Regular Card Game\\Web Version\\wwwroot\\images\\Computer.png",
+      "PackagePath": "staticwebassets\\images\\Computer.png"
+    },
+    {
+      "Id": "C:\\Users\\abasb\\OneDrive\\Documents\\_my docs\\developing\\projects\\dotnet\\Regular Card Game\\Web Version\\wwwroot\\images\\Copia Battlefield.jpg",
+      "PackagePath": "staticwebassets\\images\\Copia Battlefield.jpg"
+    },
+    {
+      "Id": "C:\\Users\\abasb\\OneDrive\\Documents\\_my docs\\developing\\projects\\dotnet\\Regular Card Game\\Web Version\\wwwroot\\images\\DIO.png",
+      "PackagePath": "staticwebassets\\images\\DIO.png"
+    },
+    {
+      "Id": "C:\\Users\\abasb\\OneDrive\\Documents\\_my docs\\developing\\projects\\dotnet\\Regular Card Game\\Web Version\\wwwroot\\images\\Dr. Oga.png",
+      "PackagePath": "staticwebassets\\images\\Dr. Oga.png"
+    },
+    {
+      "Id": "C:\\Users\\abasb\\OneDrive\\Documents\\_my docs\\developing\\projects\\dotnet\\Regular Card Game\\Web Version\\wwwroot\\images\\Edian.png",
+      "PackagePath": "staticwebassets\\images\\Edian.png"
+    },
+    {
+      "Id": "C:\\Users\\abasb\\OneDrive\\Documents\\_my docs\\developing\\projects\\dotnet\\Regular Card Game\\Web Version\\wwwroot\\images\\El Cucho.png",
+      "PackagePath": "staticwebassets\\images\\El Cucho.png"
+    },
+    {
+      "Id": "C:\\Users\\abasb\\OneDrive\\Documents\\_my docs\\developing\\projects\\dotnet\\Regular Card Game\\Web Version\\wwwroot\\images\\El Fibonacho.png",
+      "PackagePath": "staticwebassets\\images\\El Fibonacho.png"
+    },
+    {
+      "Id": "C:\\Users\\abasb\\OneDrive\\Documents\\_my docs\\developing\\projects\\dotnet\\Regular Card Game\\Web Version\\wwwroot\\images\\End Turn Button.png",
+      "PackagePath": "staticwebassets\\images\\End Turn Button.png"
+    },
+    {
+      "Id": "C:\\Users\\abasb\\OneDrive\\Documents\\_my docs\\developing\\projects\\dotnet\\Regular Card Game\\Web Version\\wwwroot\\images\\Erathostenes.png",
+      "PackagePath": "staticwebassets\\images\\Erathostenes.png"
+    },
+    {
+      "Id": "C:\\Users\\abasb\\OneDrive\\Documents\\_my docs\\developing\\projects\\dotnet\\Regular Card Game\\Web Version\\wwwroot\\images\\Even ninja.png",
+      "PackagePath": "staticwebassets\\images\\Even ninja.png"
+    },
+    {
+      "Id": "C:\\Users\\abasb\\OneDrive\\Documents\\_my docs\\developing\\projects\\dotnet\\Regular Card Game\\Web Version\\wwwroot\\images\\Fractalin.png",
+      "PackagePath": "staticwebassets\\images\\Fractalin.png"
+    },
+    {
+      "Id": "C:\\Users\\abasb\\OneDrive\\Documents\\_my docs\\developing\\projects\\dotnet\\Regular Card Game\\Web Version\\wwwroot\\images\\Guesser.png",
+      "PackagePath": "staticwebassets\\images\\Guesser.png"
+    },
+    {
+      "Id": "C:\\Users\\abasb\\OneDrive\\Documents\\_my docs\\developing\\projects\\dotnet\\Regular Card Game\\Web Version\\wwwroot\\images\\Health.png",
+      "PackagePath": "staticwebassets\\images\\Health.png"
+    },
+    {
+      "Id": "C:\\Users\\abasb\\OneDrive\\Documents\\_my docs\\developing\\projects\\dotnet\\Regular Card Game\\Web Version\\wwwroot\\images\\Kevin.png",
+      "PackagePath": "staticwebassets\\images\\Kevin.png"
+    },
+    {
+      "Id": "C:\\Users\\abasb\\OneDrive\\Documents\\_my docs\\developing\\projects\\dotnet\\Regular Card Game\\Web Version\\wwwroot\\images\\Life Steal.png",
+      "PackagePath": "staticwebassets\\images\\Life Steal.png"
+    },
+    {
+      "Id": "C:\\Users\\abasb\\OneDrive\\Documents\\_my docs\\developing\\projects\\dotnet\\Regular Card Game\\Web Version\\wwwroot\\images\\Mage.png",
+      "PackagePath": "staticwebassets\\images\\Mage.png"
+    },
+    {
+      "Id": "C:\\Users\\abasb\\OneDrive\\Documents\\_my docs\\developing\\projects\\dotnet\\Regular Card Game\\Web Version\\wwwroot\\images\\Mana.png",
+      "PackagePath": "staticwebassets\\images\\Mana.png"
+    },
+    {
+      "Id": "C:\\Users\\abasb\\OneDrive\\Documents\\_my docs\\developing\\projects\\dotnet\\Regular Card Game\\Web Version\\wwwroot\\images\\Nerd.png",
+      "PackagePath": "staticwebassets\\images\\Nerd.png"
+    },
+    {
+      "Id": "C:\\Users\\abasb\\OneDrive\\Documents\\_my docs\\developing\\projects\\dotnet\\Regular Card Game\\Web Version\\wwwroot\\images\\Null.png",
+      "PackagePath": "staticwebassets\\images\\Null.png"
+    },
+    {
+      "Id": "C:\\Users\\abasb\\OneDrive\\Documents\\_my docs\\developing\\projects\\dotnet\\Regular Card Game\\Web Version\\wwwroot\\images\\Player Outline Gold.png",
+      "PackagePath": "staticwebassets\\images\\Player Outline Gold.png"
+    },
+    {
+      "Id": "C:\\Users\\abasb\\OneDrive\\Documents\\_my docs\\developing\\projects\\dotnet\\Regular Card Game\\Web Version\\wwwroot\\images\\Thanos.png",
+      "PackagePath": "staticwebassets\\images\\Thanos.png"
+    },
+    {
+      "Id": "C:\\Users\\abasb\\OneDrive\\Documents\\_my docs\\developing\\projects\\dotnet\\Regular Card Game\\Web Version\\wwwroot\\images\\User.png",
+      "PackagePath": "staticwebassets\\images\\User.png"
+    },
+    {
+      "Id": "C:\\Users\\abasb\\OneDrive\\Documents\\_my docs\\developing\\projects\\dotnet\\Regular Card Game\\Web Version\\wwwroot\\images\\Warrior.png",
+      "PackagePath": "staticwebassets\\images\\Warrior.png"
+    },
+    {
+      "Id": "C:\\Users\\abasb\\OneDrive\\Documents\\_my docs\\developing\\projects\\dotnet\\Regular Card Game\\Web Version\\wwwroot\\images\\Yovani Vazquez.png",
+      "PackagePath": "staticwebassets\\images\\Yovani Vazquez.png"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.RegularCardGame.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.RegularCardGame.props",
+      "PackagePath": "build\\RegularCardGame.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.RegularCardGame.props",
+      "PackagePath": "buildMultiTargeting\\RegularCardGame.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.RegularCardGame.props",
+      "PackagePath": "buildTransitive\\RegularCardGame.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

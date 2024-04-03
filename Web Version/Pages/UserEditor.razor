@@ -1,0 +1,159 @@
+@page "/user editor"
+@using System.Text.Json; 
+
+<link href="css/user editor.css" rel="stylesheet" />
+
+<PageTitle>Regular Card Game</PageTitle>
+
+<div id="mainContainer">
+    <div id="existingCardsContainer">
+        <h1>Existing Cards</h1>
+        <div id="existingCards">
+            @foreach(Card card in getCards()){
+                <card @onclick="()=>addCardToUser(card.name)">
+                    <div class="cardImage" style=@getImageStyle(@card.img)>
+                    </div>
+                    <div class="cardFrame">
+                        <label class="manaText">@card.cost</label>
+                        <label class="attackText">@card.attack</label>
+                        <label class="healthText">@card.life</label>
+                        <label class="descriptionText">@card.description</label>
+                        <label class="nameText">@card.name</label>
+                    </div>
+                </card>
+            }
+        </div>
+    </div>
+    <div id="userCardsContainer">
+        <h1>User Cards</h1>
+        <div id="userCards">
+            @for(int i=0;i<getUserCards().Count;i++){
+                var card=getUserCards()[i];
+                var index=i;
+                <card @onclick="()=>removeUserCard(index)">
+                    <div class="cardImage" style=@getImageStyle(@card.img)>
+                    </div>
+                    <div class="cardFrame">
+                        <label class="manaText">@card.cost</label>
+                        <label class="attackText">@card.attack</label>
+                        <label class="healthText">@card.life</label>
+                        <label class="descriptionText">@card.description</label>
+                        <label class="nameText">@card.name</label>
+                    </div>
+                </card>
+            }
+        </div>
+    </div>
+    <div id="userMenu">
+        <div class="flexer">
+            <select name="user" @bind=userName @bind:event="oninput" @onclick="changeUser">
+                @foreach(string name in getUserNames()){
+                    <option value=@name>@name</option>
+                }
+                <option value="New user">New user</option>
+            </select>
+            <p>Name:</p>
+            <input @bind-value=@editedUser.name />
+            <p>Image:</p>
+            <input @bind-value=@editedUser.image />
+        </div>
+        <div class="flexer">
+            @if(editing){
+                <button @onclick="save">Apply</button>
+                <button @onclick="delete">Delete</button>
+            }
+            @if(!editing){
+                <button @onclick="save">Create</button>
+            }
+            <a href="/">Back</a>
+        </div>
+    </div>
+</div>
+
+@code{
+    User editedUser=new User(getNewUserName(),new List<string>(),"User.png");
+    bool editing=false;
+    string userName="New user";
+
+    static string getNewUserName(){
+        return "User #"+Convert.ToString(getUserNames().Count+1);
+    }
+
+    string getImageStyle(string img){
+        return "background:url('images/"+img+"');background-position: center;background-size: contain;background-repeat: no-repeat;";
+    }
+
+    List<Card> getCards(){
+        List<Card> cards=new List<Card>();
+        List<string> names = new List<string> (Directory.GetFiles("./Cards/", "*.json", SearchOption.AllDirectories));
+            
+        for(int i=0 ; i<names.Count ; i++){
+            names[i]=names[i].Substring(8);
+            names[i]=names[i].Substring(0,names[i].Length-5);
+            string jsonString=File.ReadAllText("./Cards/"+names[i]+".json");
+            Card card=JsonSerializer.Deserialize<Card>(jsonString);
+            cards.Add(card);
+        }
+        return cards;
+    }
+
+    List<Card> getUserCards(){
+        List<string> cardNames=editedUser.cards;
+        List<Card> cards=new List<Card>();
+
+        for(int i=0;i<cardNames.Count ;i++){
+            string jsonString=File.ReadAllText("./Cards/"+cardNames[i]+".json");
+            Card card=JsonSerializer.Deserialize<Card>(jsonString);
+            cards.Add(card);
+        }
+        return cards;
+    }
+
+    static List<string> getUserNames(){
+        List<string> names = new List<string> (Directory.GetFiles("./Users/", "*.json", SearchOption.AllDirectories));
+        
+        for(int i=0 ; i<names.Count ; i++)
+        {
+            names[i]=names[i].Substring(8);
+            names[i]=names[i].Substring(0,names[i].Length-5);
+        }
+
+        return names;
+    }
+
+    void addCardToUser(string name){
+        editedUser.cards.Add(name);
+    }
+
+    void removeUserCard(int index){
+        editedUser.cards.RemoveAt(index);
+    }
+
+    void changeUser(){
+        if(userName=="New user"){
+            editedUser=new User();
+            editing=false;
+            editedUser.name=getNewUserName();
+        }
+        else{
+            editedUser.import("./Users/"+userName+".json");
+            editing=true;
+            editedUser.name=userName;
+        }
+    }
+
+    void save(){
+        if(editing && userName!=editedUser.name){
+            File.Delete("./Users/"+userName+".json");
+        }
+        editedUser.export("./Users/"+editedUser.name+".json");
+        userName=editedUser.name;
+        editing=true;
+    }
+
+    void delete(){
+        File.Delete("./Users/"+userName+".json");
+        userName="New user";
+        editing=false;
+    }
+}

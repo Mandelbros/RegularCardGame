@@ -1,0 +1,17 @@
+{
+  "name": "Life Steal",
+  "life": 1,
+  "attack": 1,
+  "cost": 2,
+  "canAttack": false,
+  "effects": [
+    {
+      "when": "placed",
+      "conditions": "getEnemiesCount()\u003E0",
+      "actions": "{M=0; mi=getMyPos(); m=getAlliedLife(mi); i=1; while(i\u003C=7) { \tif(thereIsEnemy(i)==1) \t{ \t\tc=getEnemyLife(i); \t\tif(M\u003Cc) \t\t{ \t\t\tM=c; \t\t\tMi=i; \t\t} \t} i=i+1; } affectEnemyLife(Mi,m-M); affectAlliedLife(mi,M-m);}"
+    }
+  ],
+  "memory": {},
+  "description": "Takes the opponent\u0027s card with the most health and swaps this value with it\u0027s own health.",
+  "img": "Life Steal.png"
+}

@@ -1,0 +1,95 @@
+﻿<link href="css/ide.css" rel="stylesheet" />
+
+<div id="effect">
+    <p><b>When</b></p>
+    <p>@when</p>
+    <br/>
+
+    <p><b>Conditions</b></p>
+    <div class="line">
+        @foreach(Token token in tokenizeConditions()){
+            <p style="color:@token.color();">
+                @token.value
+            </p>
+        }
+    </div>
+    <br/>
+
+    <p><b>Actions</b></p>
+    @foreach(List<Token> line in tokenize()){
+        <div class="line">
+            @foreach(Token token in line){
+                @if(token.type=="TAB"){
+                    <div class="tab"></div>
+                }
+                <p style="color:@token.color();">
+                    @if(token.type=="WHILE" || token.type=="IF"){
+                        @token.value.ToLower()
+                    }
+                    @if(token.type!="WHILE" && token.type!="IF"){
+                        @token.value
+                    }
+                </p>
+            }
+        </div>
+    }
+    @if(curError!=""){
+        <div class="line">
+            <p>@actions</p>
+        </div>
+    }
+    <p>@curError</p>
+</div>
+
+@code {
+    [Parameter]
+    public string actions { get; set; }
+
+    [Parameter]
+    public string when { get; set; }
+
+    [Parameter]
+    public string conditions { get; set; }
+
+    string curError="";
+
+    List<Token> tokenizeConditions(){
+        Lexer lexer=new Lexer(conditions);
+        Parser parser=new Parser(lexer);
+        AST node=parser.booleanExpr();
+        return node.tokenize();
+    }
+
+    List<List<Token>> tokenize(){
+        Lexer lexer=new Lexer(actions);
+        Parser parser=new Parser(lexer);
+        List<Token> allTokens=parser.parse().tokenize();
+        List<Token> curLine=new List<Token>();
+        List<List<Token>>lines=new List<List<Token>>();
+        int tabLevel=0;
+        bool newLine=true;
+        foreach(Token token in allTokens){
+            if(token.type=="}")tabLevel--;
+            if(newLine){
+                for(int i=0;i<tabLevel;i++){
+                    curLine.Add(new Token("TAB",""));
+                }
+                newLine=false;
+            }
+            if(token.type=="ENDL"){
+                lines.Add(curLine);
+                curLine=new List<Token>();
+                newLine=true;
+            }
+            else{
+                curLine.Add(token);
+            }
+            if(token.type=="{")tabLevel++;
+        }
+        try{lines.RemoveAt(0);}catch(Exception e){}
+        try{lines.RemoveAt(0);}catch(Exception e){}
+        try{lines.RemoveAt(lines.Count-1);}catch(Exception e){}
+        curError=parser.curError;
+        return lines;
+    }
+}

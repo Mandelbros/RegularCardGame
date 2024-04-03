@@ -1,0 +1,385 @@
+D:\ArielGG\Universidad\Programación\Blazor\RegularCardGame\bin\Debug\net6.0\appsettings.Development.json
+D:\ArielGG\Universidad\Programación\Blazor\RegularCardGame\bin\Debug\net6.0\appsettings.json
+D:\ArielGG\Universidad\Programación\Blazor\RegularCardGame\bin\Debug\net6.0\RegularCardGame.staticwebassets.runtime.json
+D:\ArielGG\Universidad\Programación\Blazor\RegularCardGame\bin\Debug\net6.0\RegularCardGame.exe
+D:\ArielGG\Universidad\Programación\Blazor\RegularCardGame\bin\Debug\net6.0\RegularCardGame.deps.json
+D:\ArielGG\Universidad\Programación\Blazor\RegularCardGame\bin\Debug\net6.0\RegularCardGame.runtimeconfig.json
+D:\ArielGG\Universidad\Programación\Blazor\RegularCardGame\bin\Debug\net6.0\RegularCardGame.dll
+D:\ArielGG\Universidad\Programación\Blazor\RegularCardGame\bin\Debug\net6.0\RegularCardGame.pdb
+D:\ArielGG\Universidad\Programación\Blazor\RegularCardGame\obj\Debug\net6.0\RegularCardGame.csproj.AssemblyReference.cache
+D:\ArielGG\Universidad\Programación\Blazor\RegularCardGame\obj\Debug\net6.0\RegularCardGame.GeneratedMSBuildEditorConfig.editorconfig
+D:\ArielGG\Universidad\Programación\Blazor\RegularCardGame\obj\Debug\net6.0\RegularCardGame.AssemblyInfoInputs.cache
+D:\ArielGG\Universidad\Programación\Blazor\RegularCardGame\obj\Debug\net6.0\RegularCardGame.AssemblyInfo.cs
+D:\ArielGG\Universidad\Programación\Blazor\RegularCardGame\obj\Debug\net6.0\RegularCardGame.csproj.CoreCompileInputs.cache
+D:\ArielGG\Universidad\Programación\Blazor\RegularCardGame\obj\Debug\net6.0\RegularCardGame.MvcApplicationPartsAssemblyInfo.cache
+D:\ArielGG\Universidad\Programación\Blazor\RegularCardGame\obj\Debug\net6.0\RegularCardGame.RazorAssemblyInfo.cache
+D:\ArielGG\Universidad\Programación\Blazor\RegularCardGame\obj\Debug\net6.0\RegularCardGame.RazorAssemblyInfo.cs
+D:\ArielGG\Universidad\Programación\Blazor\RegularCardGame\obj\Debug\net6.0\staticwebassets.build.json
+D:\ArielGG\Universidad\Programación\Blazor\RegularCardGame\obj\Debug\net6.0\staticwebassets.development.json
+D:\ArielGG\Universidad\Programación\Blazor\RegularCardGame\obj\Debug\net6.0\scopedcss\Shared\MainLayout.razor.rz.scp.css
+D:\ArielGG\Universidad\Programación\Blazor\RegularCardGame\obj\Debug\net6.0\scopedcss\Shared\NavMenu.razor.rz.scp.css
+D:\ArielGG\Universidad\Programación\Blazor\RegularCardGame\obj\Debug\net6.0\scopedcss\bundle\RegularCardGame.styles.css
+D:\ArielGG\Universidad\Programación\Blazor\RegularCardGame\obj\Debug\net6.0\scopedcss\projectbundle\RegularCardGame.bundle.scp.css
+D:\ArielGG\Universidad\Programación\Blazor\RegularCardGame\obj\Debug\net6.0\RegularCardGame.dll
+D:\ArielGG\Universidad\Programación\Blazor\RegularCardGame\obj\Debug\net6.0\refint\RegularCardGame.dll
+D:\ArielGG\Universidad\Programación\Blazor\RegularCardGame\obj\Debug\net6.0\RegularCardGame.pdb
+D:\ArielGG\Universidad\Programación\Blazor\RegularCardGame\obj\Debug\net6.0\RegularCardGame.genruntimeconfig.cache
+D:\ArielGG\Universidad\Programación\Blazor\RegularCardGame\obj\Debug\net6.0\ref\RegularCardGame.dll
+D:\ArielGG\Universidad\Programación\Blazor\RegularCardGame\bin\Debug\net6.0\Cards\Black Hole.json
+D:\ArielGG\Universidad\Programación\Blazor\RegularCardGame\bin\Debug\net6.0\Cards\DIO.json
+D:\ArielGG\Universidad\Programación\Blazor\RegularCardGame\bin\Debug\net6.0\Cards\Dr. Oga.json
+D:\ArielGG\Universidad\Programación\Blazor\RegularCardGame\bin\Debug\net6.0\Cards\El Cucho.json
+D:\ArielGG\Universidad\Programación\Blazor\RegularCardGame\bin\Debug\net6.0\Cards\El Fibonacho.json
+D:\ArielGG\Universidad\Programación\Blazor\RegularCardGame\bin\Debug\net6.0\Cards\Even ninja.json
+D:\ArielGG\Universidad\Programación\Blazor\RegularCardGame\bin\Debug\net6.0\Cards\Guesser.json
+D:\ArielGG\Universidad\Programación\Blazor\RegularCardGame\bin\Debug\net6.0\Cards\Mage.json
+D:\ArielGG\Universidad\Programación\Blazor\RegularCardGame\bin\Debug\net6.0\Cards\Number fan #3.json
+D:\ArielGG\Universidad\Programación\Blazor\RegularCardGame\bin\Debug\net6.0\Cards\Thanos.json
+D:\ArielGG\Universidad\Programación\Blazor\RegularCardGame\bin\Debug\net6.0\Cards\Warrior.json
+D:\ArielGG\Universidad\Programación\Blazor\RegularCardGame\bin\Debug\net6.0\Cards\Yovani Vazquez.json
+D:\ArielGG\Universidad\Programación\Blazor\RegularCardGame\bin\Debug\net6.0\Users\Alex.json
+D:\ArielGG\Universidad\Programación\Blazor\RegularCardGame\bin\Debug\net6.0\Users\Ariel.json
+D:\ArielGG\Universidad\Programación\Blazor\RegularCardGame\bin\Debug\net6.0\Users\Computer.json
+D:\ArielGG\Universidad\Programación\Blazor\RegularCardGame\bin\Debug\net6.0\Users\Edian.json
+D:\ArielGG\Universidad\Programación\Blazor\RegularCardGame\bin\Debug\net6.0\Cards\New Card.json
+E:\Programming\Projects\C#\Final\aaa.2\RegularCardGame\bin\Debug\net6.0\appsettings.Development.json
+E:\Programming\Projects\C#\Final\aaa.2\RegularCardGame\bin\Debug\net6.0\appsettings.json
+E:\Programming\Projects\C#\Final\aaa.2\RegularCardGame\bin\Debug\net6.0\Cards\Black Hole.json
+E:\Programming\Projects\C#\Final\aaa.2\RegularCardGame\bin\Debug\net6.0\Cards\DIO.json
+E:\Programming\Projects\C#\Final\aaa.2\RegularCardGame\bin\Debug\net6.0\Cards\Dr. Oga.json
+E:\Programming\Projects\C#\Final\aaa.2\RegularCardGame\bin\Debug\net6.0\Cards\El Cucho.json
+E:\Programming\Projects\C#\Final\aaa.2\RegularCardGame\bin\Debug\net6.0\Cards\El Fibonacho.json
+E:\Programming\Projects\C#\Final\aaa.2\RegularCardGame\bin\Debug\net6.0\Cards\Even ninja.json
+E:\Programming\Projects\C#\Final\aaa.2\RegularCardGame\bin\Debug\net6.0\Cards\Guesser.json
+E:\Programming\Projects\C#\Final\aaa.2\RegularCardGame\bin\Debug\net6.0\Cards\Mage.json
+E:\Programming\Projects\C#\Final\aaa.2\RegularCardGame\bin\Debug\net6.0\Cards\New Card.json
+E:\Programming\Projects\C#\Final\aaa.2\RegularCardGame\bin\Debug\net6.0\Cards\Number fan #3.json
+E:\Programming\Projects\C#\Final\aaa.2\RegularCardGame\bin\Debug\net6.0\Cards\Thanos.json
+E:\Programming\Projects\C#\Final\aaa.2\RegularCardGame\bin\Debug\net6.0\Cards\Warrior.json
+E:\Programming\Projects\C#\Final\aaa.2\RegularCardGame\bin\Debug\net6.0\Cards\Yovani Vazquez.json
+E:\Programming\Projects\C#\Final\aaa.2\RegularCardGame\bin\Debug\net6.0\Users\Alex.json
+E:\Programming\Projects\C#\Final\aaa.2\RegularCardGame\bin\Debug\net6.0\Users\Ariel.json
+E:\Programming\Projects\C#\Final\aaa.2\RegularCardGame\bin\Debug\net6.0\Users\Computer.json
+E:\Programming\Projects\C#\Final\aaa.2\RegularCardGame\bin\Debug\net6.0\Users\Edian.json
+E:\Programming\Projects\C#\Final\aaa.2\RegularCardGame\bin\Debug\net6.0\RegularCardGame.staticwebassets.runtime.json
+E:\Programming\Projects\C#\Final\aaa.2\RegularCardGame\bin\Debug\net6.0\RegularCardGame.exe
+E:\Programming\Projects\C#\Final\aaa.2\RegularCardGame\bin\Debug\net6.0\RegularCardGame.deps.json
+E:\Programming\Projects\C#\Final\aaa.2\RegularCardGame\bin\Debug\net6.0\RegularCardGame.runtimeconfig.json
+E:\Programming\Projects\C#\Final\aaa.2\RegularCardGame\bin\Debug\net6.0\RegularCardGame.dll
+E:\Programming\Projects\C#\Final\aaa.2\RegularCardGame\bin\Debug\net6.0\RegularCardGame.pdb
+E:\Programming\Projects\C#\Final\aaa.2\RegularCardGame\obj\Debug\net6.0\RegularCardGame.csproj.AssemblyReference.cache
+E:\Programming\Projects\C#\Final\aaa.2\RegularCardGame\obj\Debug\net6.0\RegularCardGame.GeneratedMSBuildEditorConfig.editorconfig
+E:\Programming\Projects\C#\Final\aaa.2\RegularCardGame\obj\Debug\net6.0\RegularCardGame.AssemblyInfoInputs.cache
+E:\Programming\Projects\C#\Final\aaa.2\RegularCardGame\obj\Debug\net6.0\RegularCardGame.AssemblyInfo.cs
+E:\Programming\Projects\C#\Final\aaa.2\RegularCardGame\obj\Debug\net6.0\RegularCardGame.csproj.CoreCompileInputs.cache
+E:\Programming\Projects\C#\Final\aaa.2\RegularCardGame\obj\Debug\net6.0\RegularCardGame.MvcApplicationPartsAssemblyInfo.cache
+E:\Programming\Projects\C#\Final\aaa.2\RegularCardGame\obj\Debug\net6.0\RegularCardGame.RazorAssemblyInfo.cache
+E:\Programming\Projects\C#\Final\aaa.2\RegularCardGame\obj\Debug\net6.0\RegularCardGame.RazorAssemblyInfo.cs
+E:\Programming\Projects\C#\Final\aaa.2\RegularCardGame\obj\Debug\net6.0\staticwebassets.build.json
+E:\Programming\Projects\C#\Final\aaa.2\RegularCardGame\obj\Debug\net6.0\staticwebassets.development.json
+E:\Programming\Projects\C#\Final\aaa.2\RegularCardGame\obj\Debug\net6.0\scopedcss\Shared\MainLayout.razor.rz.scp.css
+E:\Programming\Projects\C#\Final\aaa.2\RegularCardGame\obj\Debug\net6.0\scopedcss\Shared\NavMenu.razor.rz.scp.css
+E:\Programming\Projects\C#\Final\aaa.2\RegularCardGame\obj\Debug\net6.0\scopedcss\bundle\RegularCardGame.styles.css
+E:\Programming\Projects\C#\Final\aaa.2\RegularCardGame\obj\Debug\net6.0\scopedcss\projectbundle\RegularCardGame.bundle.scp.css
+E:\Programming\Projects\C#\Final\aaa.2\RegularCardGame\obj\Debug\net6.0\RegularCardGame.dll
+E:\Programming\Projects\C#\Final\aaa.2\RegularCardGame\obj\Debug\net6.0\refint\RegularCardGame.dll
+E:\Programming\Projects\C#\Final\aaa.2\RegularCardGame\obj\Debug\net6.0\RegularCardGame.pdb
+E:\Programming\Projects\C#\Final\aaa.2\RegularCardGame\obj\Debug\net6.0\RegularCardGame.genruntimeconfig.cache
+E:\Programming\Projects\C#\Final\aaa.2\RegularCardGame\obj\Debug\net6.0\ref\RegularCardGame.dll
+E:\Programming\Projects\C#\Final\RegularCardGame\bin\Debug\net6.0\appsettings.Development.json
+E:\Programming\Projects\C#\Final\RegularCardGame\bin\Debug\net6.0\appsettings.json
+E:\Programming\Projects\C#\Final\RegularCardGame\bin\Debug\net6.0\Cards\Black Hole.json
+E:\Programming\Projects\C#\Final\RegularCardGame\bin\Debug\net6.0\Cards\DIO.json
+E:\Programming\Projects\C#\Final\RegularCardGame\bin\Debug\net6.0\Cards\Dr. Oga.json
+E:\Programming\Projects\C#\Final\RegularCardGame\bin\Debug\net6.0\Cards\El Cucho.json
+E:\Programming\Projects\C#\Final\RegularCardGame\bin\Debug\net6.0\Cards\El Fibonacho.json
+E:\Programming\Projects\C#\Final\RegularCardGame\bin\Debug\net6.0\Cards\Even ninja.json
+E:\Programming\Projects\C#\Final\RegularCardGame\bin\Debug\net6.0\Cards\Guesser.json
+E:\Programming\Projects\C#\Final\RegularCardGame\bin\Debug\net6.0\Cards\Mage.json
+E:\Programming\Projects\C#\Final\RegularCardGame\bin\Debug\net6.0\Cards\New Card.json
+E:\Programming\Projects\C#\Final\RegularCardGame\bin\Debug\net6.0\Cards\Number fan #3.json
+E:\Programming\Projects\C#\Final\RegularCardGame\bin\Debug\net6.0\Cards\Thanos.json
+E:\Programming\Projects\C#\Final\RegularCardGame\bin\Debug\net6.0\Cards\Warrior.json
+E:\Programming\Projects\C#\Final\RegularCardGame\bin\Debug\net6.0\Cards\Yovani Vazquez.json
+E:\Programming\Projects\C#\Final\RegularCardGame\bin\Debug\net6.0\Users\Alex.json
+E:\Programming\Projects\C#\Final\RegularCardGame\bin\Debug\net6.0\Users\Ariel.json
+E:\Programming\Projects\C#\Final\RegularCardGame\bin\Debug\net6.0\Users\Computer.json
+E:\Programming\Projects\C#\Final\RegularCardGame\bin\Debug\net6.0\Users\Edian.json
+E:\Programming\Projects\C#\Final\RegularCardGame\bin\Debug\net6.0\RegularCardGame.exe
+E:\Programming\Projects\C#\Final\RegularCardGame\bin\Debug\net6.0\RegularCardGame.staticwebassets.runtime.json
+E:\Programming\Projects\C#\Final\RegularCardGame\bin\Debug\net6.0\RegularCardGame.deps.json
+E:\Programming\Projects\C#\Final\RegularCardGame\bin\Debug\net6.0\RegularCardGame.runtimeconfig.json
+E:\Programming\Projects\C#\Final\RegularCardGame\bin\Debug\net6.0\RegularCardGame.dll
+E:\Programming\Projects\C#\Final\RegularCardGame\bin\Debug\net6.0\RegularCardGame.pdb
+E:\Programming\Projects\C#\Final\RegularCardGame\obj\Debug\net6.0\RegularCardGame.csproj.AssemblyReference.cache
+E:\Programming\Projects\C#\Final\RegularCardGame\obj\Debug\net6.0\RegularCardGame.GeneratedMSBuildEditorConfig.editorconfig
+E:\Programming\Projects\C#\Final\RegularCardGame\obj\Debug\net6.0\RegularCardGame.AssemblyInfoInputs.cache
+E:\Programming\Projects\C#\Final\RegularCardGame\obj\Debug\net6.0\RegularCardGame.AssemblyInfo.cs
+E:\Programming\Projects\C#\Final\RegularCardGame\obj\Debug\net6.0\RegularCardGame.csproj.CoreCompileInputs.cache
+E:\Programming\Projects\C#\Final\RegularCardGame\obj\Debug\net6.0\RegularCardGame.MvcApplicationPartsAssemblyInfo.cache
+E:\Programming\Projects\C#\Final\RegularCardGame\obj\Debug\net6.0\RegularCardGame.RazorAssemblyInfo.cache
+E:\Programming\Projects\C#\Final\RegularCardGame\obj\Debug\net6.0\RegularCardGame.RazorAssemblyInfo.cs
+E:\Programming\Projects\C#\Final\RegularCardGame\obj\Debug\net6.0\staticwebassets.build.json
+E:\Programming\Projects\C#\Final\RegularCardGame\obj\Debug\net6.0\staticwebassets.development.json
+E:\Programming\Projects\C#\Final\RegularCardGame\obj\Debug\net6.0\scopedcss\Shared\MainLayout.razor.rz.scp.css
+E:\Programming\Projects\C#\Final\RegularCardGame\obj\Debug\net6.0\scopedcss\Shared\NavMenu.razor.rz.scp.css
+E:\Programming\Projects\C#\Final\RegularCardGame\obj\Debug\net6.0\scopedcss\bundle\RegularCardGame.styles.css
+E:\Programming\Projects\C#\Final\RegularCardGame\obj\Debug\net6.0\scopedcss\projectbundle\RegularCardGame.bundle.scp.css
+E:\Programming\Projects\C#\Final\RegularCardGame\obj\Debug\net6.0\RegularCardGame.dll
+E:\Programming\Projects\C#\Final\RegularCardGame\obj\Debug\net6.0\refint\RegularCardGame.dll
+E:\Programming\Projects\C#\Final\RegularCardGame\obj\Debug\net6.0\RegularCardGame.pdb
+E:\Programming\Projects\C#\Final\RegularCardGame\obj\Debug\net6.0\RegularCardGame.genruntimeconfig.cache
+E:\Programming\Projects\C#\Final\RegularCardGame\obj\Debug\net6.0\ref\RegularCardGame.dll
+E:\Programming\Projects\C#\Final\RegularCardGame\bin\Debug\net6.0\Cards\Ariel Chad.json
+E:\Programming\Projects\C#\Final\RegularCardGame\bin\Debug\net6.0\Cards\Fractalín.json
+E:\Programming\Projects\C#\Final\RegularCardGame\bin\Debug\net6.0\Cards\Life Steal.json
+E:\Programming\Projects\C#\Final\RegularCardGame\bin\Debug\net6.0\Users\Kevin.json
+E:\Programming\Projects\C#\Final\Backup\RegularCardGame\bin\Debug\net6.0\appsettings.Development.json
+E:\Programming\Projects\C#\Final\Backup\RegularCardGame\bin\Debug\net6.0\appsettings.json
+E:\Programming\Projects\C#\Final\Backup\RegularCardGame\bin\Debug\net6.0\Cards\Ariel Chad.json
+E:\Programming\Projects\C#\Final\Backup\RegularCardGame\bin\Debug\net6.0\Cards\Black Hole.json
+E:\Programming\Projects\C#\Final\Backup\RegularCardGame\bin\Debug\net6.0\Cards\DIO.json
+E:\Programming\Projects\C#\Final\Backup\RegularCardGame\bin\Debug\net6.0\Cards\Dr. Oga.json
+E:\Programming\Projects\C#\Final\Backup\RegularCardGame\bin\Debug\net6.0\Cards\El Cucho.json
+E:\Programming\Projects\C#\Final\Backup\RegularCardGame\bin\Debug\net6.0\Cards\El Fibonacho.json
+E:\Programming\Projects\C#\Final\Backup\RegularCardGame\bin\Debug\net6.0\Cards\Even ninja.json
+E:\Programming\Projects\C#\Final\Backup\RegularCardGame\bin\Debug\net6.0\Cards\Fractalín.json
+E:\Programming\Projects\C#\Final\Backup\RegularCardGame\bin\Debug\net6.0\Cards\Guesser.json
+E:\Programming\Projects\C#\Final\Backup\RegularCardGame\bin\Debug\net6.0\Cards\Life Steal.json
+E:\Programming\Projects\C#\Final\Backup\RegularCardGame\bin\Debug\net6.0\Cards\Mage.json
+E:\Programming\Projects\C#\Final\Backup\RegularCardGame\bin\Debug\net6.0\Cards\New Card.json
+E:\Programming\Projects\C#\Final\Backup\RegularCardGame\bin\Debug\net6.0\Cards\Number fan #3.json
+E:\Programming\Projects\C#\Final\Backup\RegularCardGame\bin\Debug\net6.0\Cards\Thanos.json
+E:\Programming\Projects\C#\Final\Backup\RegularCardGame\bin\Debug\net6.0\Cards\Warrior.json
+E:\Programming\Projects\C#\Final\Backup\RegularCardGame\bin\Debug\net6.0\Cards\Yovani Vazquez.json
+E:\Programming\Projects\C#\Final\Backup\RegularCardGame\bin\Debug\net6.0\Users\Alex.json
+E:\Programming\Projects\C#\Final\Backup\RegularCardGame\bin\Debug\net6.0\Users\Ariel.json
+E:\Programming\Projects\C#\Final\Backup\RegularCardGame\bin\Debug\net6.0\Users\Computer.json
+E:\Programming\Projects\C#\Final\Backup\RegularCardGame\bin\Debug\net6.0\Users\Edian.json
+E:\Programming\Projects\C#\Final\Backup\RegularCardGame\bin\Debug\net6.0\Users\Kevin.json
+E:\Programming\Projects\C#\Final\Backup\RegularCardGame\bin\Debug\net6.0\RegularCardGame.exe
+E:\Programming\Projects\C#\Final\Backup\RegularCardGame\bin\Debug\net6.0\RegularCardGame.staticwebassets.runtime.json
+E:\Programming\Projects\C#\Final\Backup\RegularCardGame\bin\Debug\net6.0\RegularCardGame.deps.json
+E:\Programming\Projects\C#\Final\Backup\RegularCardGame\bin\Debug\net6.0\RegularCardGame.runtimeconfig.json
+E:\Programming\Projects\C#\Final\Backup\RegularCardGame\bin\Debug\net6.0\RegularCardGame.dll
+E:\Programming\Projects\C#\Final\Backup\RegularCardGame\bin\Debug\net6.0\RegularCardGame.pdb
+E:\Programming\Projects\C#\Final\Backup\RegularCardGame\obj\Debug\net6.0\RegularCardGame.csproj.AssemblyReference.cache
+E:\Programming\Projects\C#\Final\Backup\RegularCardGame\obj\Debug\net6.0\RegularCardGame.GeneratedMSBuildEditorConfig.editorconfig
+E:\Programming\Projects\C#\Final\Backup\RegularCardGame\obj\Debug\net6.0\RegularCardGame.AssemblyInfoInputs.cache
+E:\Programming\Projects\C#\Final\Backup\RegularCardGame\obj\Debug\net6.0\RegularCardGame.AssemblyInfo.cs
+E:\Programming\Projects\C#\Final\Backup\RegularCardGame\obj\Debug\net6.0\RegularCardGame.csproj.CoreCompileInputs.cache
+E:\Programming\Projects\C#\Final\Backup\RegularCardGame\obj\Debug\net6.0\RegularCardGame.MvcApplicationPartsAssemblyInfo.cache
+E:\Programming\Projects\C#\Final\Backup\RegularCardGame\obj\Debug\net6.0\RegularCardGame.RazorAssemblyInfo.cache
+E:\Programming\Projects\C#\Final\Backup\RegularCardGame\obj\Debug\net6.0\RegularCardGame.RazorAssemblyInfo.cs
+E:\Programming\Projects\C#\Final\Backup\RegularCardGame\obj\Debug\net6.0\staticwebassets.build.json
+E:\Programming\Projects\C#\Final\Backup\RegularCardGame\obj\Debug\net6.0\staticwebassets.development.json
+E:\Programming\Projects\C#\Final\Backup\RegularCardGame\obj\Debug\net6.0\scopedcss\Shared\MainLayout.razor.rz.scp.css
+E:\Programming\Projects\C#\Final\Backup\RegularCardGame\obj\Debug\net6.0\scopedcss\Shared\NavMenu.razor.rz.scp.css
+E:\Programming\Projects\C#\Final\Backup\RegularCardGame\obj\Debug\net6.0\scopedcss\bundle\RegularCardGame.styles.css
+E:\Programming\Projects\C#\Final\Backup\RegularCardGame\obj\Debug\net6.0\scopedcss\projectbundle\RegularCardGame.bundle.scp.css
+E:\Programming\Projects\C#\Final\Backup\RegularCardGame\obj\Debug\net6.0\RegularCardGame.dll
+E:\Programming\Projects\C#\Final\Backup\RegularCardGame\obj\Debug\net6.0\refint\RegularCardGame.dll
+E:\Programming\Projects\C#\Final\Backup\RegularCardGame\obj\Debug\net6.0\RegularCardGame.pdb
+E:\Programming\Projects\C#\Final\Backup\RegularCardGame\obj\Debug\net6.0\RegularCardGame.genruntimeconfig.cache
+E:\Programming\Projects\C#\Final\Backup\RegularCardGame\obj\Debug\net6.0\ref\RegularCardGame.dll
+E:\Programming\Projects\C#\Final\RegularCardGame\bin\Debug\net6.0\Cards\Erathostenes.json
+C:\Users\Alex\Downloads\RegularCardGame-main\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\Alex\Downloads\RegularCardGame-main\bin\Debug\net6.0\appsettings.json
+C:\Users\Alex\Downloads\RegularCardGame-main\bin\Debug\net6.0\Cards\Ariel Chad.json
+C:\Users\Alex\Downloads\RegularCardGame-main\bin\Debug\net6.0\Cards\Black Hole.json
+C:\Users\Alex\Downloads\RegularCardGame-main\bin\Debug\net6.0\Cards\DIO.json
+C:\Users\Alex\Downloads\RegularCardGame-main\bin\Debug\net6.0\Cards\Dr. Oga.json
+C:\Users\Alex\Downloads\RegularCardGame-main\bin\Debug\net6.0\Cards\El Cucho.json
+C:\Users\Alex\Downloads\RegularCardGame-main\bin\Debug\net6.0\Cards\El Fibonacho.json
+C:\Users\Alex\Downloads\RegularCardGame-main\bin\Debug\net6.0\Cards\Erathostenes.json
+C:\Users\Alex\Downloads\RegularCardGame-main\bin\Debug\net6.0\Cards\Even ninja.json
+C:\Users\Alex\Downloads\RegularCardGame-main\bin\Debug\net6.0\Cards\Fractalín.json
+C:\Users\Alex\Downloads\RegularCardGame-main\bin\Debug\net6.0\Cards\Guesser.json
+C:\Users\Alex\Downloads\RegularCardGame-main\bin\Debug\net6.0\Cards\Life Steal.json
+C:\Users\Alex\Downloads\RegularCardGame-main\bin\Debug\net6.0\Cards\Mage.json
+C:\Users\Alex\Downloads\RegularCardGame-main\bin\Debug\net6.0\Cards\New Card.json
+C:\Users\Alex\Downloads\RegularCardGame-main\bin\Debug\net6.0\Cards\Number fan #3.json
+C:\Users\Alex\Downloads\RegularCardGame-main\bin\Debug\net6.0\Cards\Thanos.json
+C:\Users\Alex\Downloads\RegularCardGame-main\bin\Debug\net6.0\Cards\Warrior.json
+C:\Users\Alex\Downloads\RegularCardGame-main\bin\Debug\net6.0\Cards\Yovani Vazquez.json
+C:\Users\Alex\Downloads\RegularCardGame-main\bin\Debug\net6.0\Users\Alex.json
+C:\Users\Alex\Downloads\RegularCardGame-main\bin\Debug\net6.0\Users\Ariel.json
+C:\Users\Alex\Downloads\RegularCardGame-main\bin\Debug\net6.0\Users\Computer.json
+C:\Users\Alex\Downloads\RegularCardGame-main\bin\Debug\net6.0\Users\Edian.json
+C:\Users\Alex\Downloads\RegularCardGame-main\bin\Debug\net6.0\Users\Kevin.json
+C:\Users\Alex\Downloads\RegularCardGame-main\bin\Debug\net6.0\RegularCardGame.staticwebassets.runtime.json
+C:\Users\Alex\Downloads\RegularCardGame-main\bin\Debug\net6.0\RegularCardGame.exe
+C:\Users\Alex\Downloads\RegularCardGame-main\bin\Debug\net6.0\RegularCardGame.deps.json
+C:\Users\Alex\Downloads\RegularCardGame-main\bin\Debug\net6.0\RegularCardGame.runtimeconfig.json
+C:\Users\Alex\Downloads\RegularCardGame-main\bin\Debug\net6.0\RegularCardGame.dll
+C:\Users\Alex\Downloads\RegularCardGame-main\bin\Debug\net6.0\RegularCardGame.pdb
+C:\Users\Alex\Downloads\RegularCardGame-main\obj\Debug\net6.0\RegularCardGame.csproj.AssemblyReference.cache
+C:\Users\Alex\Downloads\RegularCardGame-main\obj\Debug\net6.0\RegularCardGame.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Alex\Downloads\RegularCardGame-main\obj\Debug\net6.0\RegularCardGame.AssemblyInfoInputs.cache
+C:\Users\Alex\Downloads\RegularCardGame-main\obj\Debug\net6.0\RegularCardGame.AssemblyInfo.cs
+C:\Users\Alex\Downloads\RegularCardGame-main\obj\Debug\net6.0\RegularCardGame.csproj.CoreCompileInputs.cache
+C:\Users\Alex\Downloads\RegularCardGame-main\obj\Debug\net6.0\RegularCardGame.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Alex\Downloads\RegularCardGame-main\obj\Debug\net6.0\RegularCardGame.RazorAssemblyInfo.cache
+C:\Users\Alex\Downloads\RegularCardGame-main\obj\Debug\net6.0\RegularCardGame.RazorAssemblyInfo.cs
+C:\Users\Alex\Downloads\RegularCardGame-main\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\Alex\Downloads\RegularCardGame-main\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\Alex\Downloads\RegularCardGame-main\obj\Debug\net6.0\scopedcss\Shared\MainLayout.razor.rz.scp.css
+C:\Users\Alex\Downloads\RegularCardGame-main\obj\Debug\net6.0\scopedcss\Shared\NavMenu.razor.rz.scp.css
+C:\Users\Alex\Downloads\RegularCardGame-main\obj\Debug\net6.0\scopedcss\bundle\RegularCardGame.styles.css
+C:\Users\Alex\Downloads\RegularCardGame-main\obj\Debug\net6.0\scopedcss\projectbundle\RegularCardGame.bundle.scp.css
+C:\Users\Alex\Downloads\RegularCardGame-main\obj\Debug\net6.0\RegularCardGame.dll
+C:\Users\Alex\Downloads\RegularCardGame-main\obj\Debug\net6.0\refint\RegularCardGame.dll
+C:\Users\Alex\Downloads\RegularCardGame-main\obj\Debug\net6.0\RegularCardGame.pdb
+C:\Users\Alex\Downloads\RegularCardGame-main\obj\Debug\net6.0\RegularCardGame.genruntimeconfig.cache
+C:\Users\Alex\Downloads\RegularCardGame-main\obj\Debug\net6.0\ref\RegularCardGame.dll
+C:\Users\Alex\Documents\Developing\Projects\C#\RegularCardGame-main\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\Alex\Documents\Developing\Projects\C#\RegularCardGame-main\bin\Debug\net6.0\appsettings.json
+C:\Users\Alex\Documents\Developing\Projects\C#\RegularCardGame-main\bin\Debug\net6.0\Cards\Ariel Chad.json
+C:\Users\Alex\Documents\Developing\Projects\C#\RegularCardGame-main\bin\Debug\net6.0\Cards\Black Hole.json
+C:\Users\Alex\Documents\Developing\Projects\C#\RegularCardGame-main\bin\Debug\net6.0\Cards\DIO.json
+C:\Users\Alex\Documents\Developing\Projects\C#\RegularCardGame-main\bin\Debug\net6.0\Cards\Dr. Oga.json
+C:\Users\Alex\Documents\Developing\Projects\C#\RegularCardGame-main\bin\Debug\net6.0\Cards\El Cucho.json
+C:\Users\Alex\Documents\Developing\Projects\C#\RegularCardGame-main\bin\Debug\net6.0\Cards\El Fibonacho.json
+C:\Users\Alex\Documents\Developing\Projects\C#\RegularCardGame-main\bin\Debug\net6.0\Cards\Erathostenes.json
+C:\Users\Alex\Documents\Developing\Projects\C#\RegularCardGame-main\bin\Debug\net6.0\Cards\Even ninja.json
+C:\Users\Alex\Documents\Developing\Projects\C#\RegularCardGame-main\bin\Debug\net6.0\Cards\Fractalín.json
+C:\Users\Alex\Documents\Developing\Projects\C#\RegularCardGame-main\bin\Debug\net6.0\Cards\Guesser.json
+C:\Users\Alex\Documents\Developing\Projects\C#\RegularCardGame-main\bin\Debug\net6.0\Cards\Life Steal.json
+C:\Users\Alex\Documents\Developing\Projects\C#\RegularCardGame-main\bin\Debug\net6.0\Cards\Mage.json
+C:\Users\Alex\Documents\Developing\Projects\C#\RegularCardGame-main\bin\Debug\net6.0\Cards\New Card.json
+C:\Users\Alex\Documents\Developing\Projects\C#\RegularCardGame-main\bin\Debug\net6.0\Cards\Number fan #3.json
+C:\Users\Alex\Documents\Developing\Projects\C#\RegularCardGame-main\bin\Debug\net6.0\Cards\Thanos.json
+C:\Users\Alex\Documents\Developing\Projects\C#\RegularCardGame-main\bin\Debug\net6.0\Cards\Warrior.json
+C:\Users\Alex\Documents\Developing\Projects\C#\RegularCardGame-main\bin\Debug\net6.0\Cards\Yovani Vazquez.json
+C:\Users\Alex\Documents\Developing\Projects\C#\RegularCardGame-main\bin\Debug\net6.0\Users\Alex.json
+C:\Users\Alex\Documents\Developing\Projects\C#\RegularCardGame-main\bin\Debug\net6.0\Users\Ariel.json
+C:\Users\Alex\Documents\Developing\Projects\C#\RegularCardGame-main\bin\Debug\net6.0\Users\Computer.json
+C:\Users\Alex\Documents\Developing\Projects\C#\RegularCardGame-main\bin\Debug\net6.0\Users\Edian.json
+C:\Users\Alex\Documents\Developing\Projects\C#\RegularCardGame-main\bin\Debug\net6.0\Users\Kevin.json
+C:\Users\Alex\Documents\Developing\Projects\C#\RegularCardGame-main\bin\Debug\net6.0\RegularCardGame.staticwebassets.runtime.json
+C:\Users\Alex\Documents\Developing\Projects\C#\RegularCardGame-main\bin\Debug\net6.0\RegularCardGame.exe
+C:\Users\Alex\Documents\Developing\Projects\C#\RegularCardGame-main\bin\Debug\net6.0\RegularCardGame.deps.json
+C:\Users\Alex\Documents\Developing\Projects\C#\RegularCardGame-main\bin\Debug\net6.0\RegularCardGame.runtimeconfig.json
+C:\Users\Alex\Documents\Developing\Projects\C#\RegularCardGame-main\bin\Debug\net6.0\RegularCardGame.dll
+C:\Users\Alex\Documents\Developing\Projects\C#\RegularCardGame-main\bin\Debug\net6.0\RegularCardGame.pdb
+C:\Users\Alex\Documents\Developing\Projects\C#\RegularCardGame-main\obj\Debug\net6.0\RegularCardGame.csproj.AssemblyReference.cache
+C:\Users\Alex\Documents\Developing\Projects\C#\RegularCardGame-main\obj\Debug\net6.0\RegularCardGame.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Alex\Documents\Developing\Projects\C#\RegularCardGame-main\obj\Debug\net6.0\RegularCardGame.AssemblyInfoInputs.cache
+C:\Users\Alex\Documents\Developing\Projects\C#\RegularCardGame-main\obj\Debug\net6.0\RegularCardGame.AssemblyInfo.cs
+C:\Users\Alex\Documents\Developing\Projects\C#\RegularCardGame-main\obj\Debug\net6.0\RegularCardGame.csproj.CoreCompileInputs.cache
+C:\Users\Alex\Documents\Developing\Projects\C#\RegularCardGame-main\obj\Debug\net6.0\RegularCardGame.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Alex\Documents\Developing\Projects\C#\RegularCardGame-main\obj\Debug\net6.0\RegularCardGame.RazorAssemblyInfo.cache
+C:\Users\Alex\Documents\Developing\Projects\C#\RegularCardGame-main\obj\Debug\net6.0\RegularCardGame.RazorAssemblyInfo.cs
+C:\Users\Alex\Documents\Developing\Projects\C#\RegularCardGame-main\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\Alex\Documents\Developing\Projects\C#\RegularCardGame-main\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\Alex\Documents\Developing\Projects\C#\RegularCardGame-main\obj\Debug\net6.0\scopedcss\Shared\MainLayout.razor.rz.scp.css
+C:\Users\Alex\Documents\Developing\Projects\C#\RegularCardGame-main\obj\Debug\net6.0\scopedcss\Shared\NavMenu.razor.rz.scp.css
+C:\Users\Alex\Documents\Developing\Projects\C#\RegularCardGame-main\obj\Debug\net6.0\scopedcss\bundle\RegularCardGame.styles.css
+C:\Users\Alex\Documents\Developing\Projects\C#\RegularCardGame-main\obj\Debug\net6.0\scopedcss\projectbundle\RegularCardGame.bundle.scp.css
+C:\Users\Alex\Documents\Developing\Projects\C#\RegularCardGame-main\obj\Debug\net6.0\RegularCardGame.dll
+C:\Users\Alex\Documents\Developing\Projects\C#\RegularCardGame-main\obj\Debug\net6.0\refint\RegularCardGame.dll
+C:\Users\Alex\Documents\Developing\Projects\C#\RegularCardGame-main\obj\Debug\net6.0\RegularCardGame.pdb
+C:\Users\Alex\Documents\Developing\Projects\C#\RegularCardGame-main\obj\Debug\net6.0\RegularCardGame.genruntimeconfig.cache
+C:\Users\Alex\Documents\Developing\Projects\C#\RegularCardGame-main\obj\Debug\net6.0\ref\RegularCardGame.dll
+C:\Users\Alex\Documents\Developing\Projects\C#\Regular Card Game\Web Version\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\Alex\Documents\Developing\Projects\C#\Regular Card Game\Web Version\bin\Debug\net6.0\appsettings.json
+C:\Users\Alex\Documents\Developing\Projects\C#\Regular Card Game\Web Version\bin\Debug\net6.0\Cards\Ariel Chad.json
+C:\Users\Alex\Documents\Developing\Projects\C#\Regular Card Game\Web Version\bin\Debug\net6.0\Cards\Black Hole.json
+C:\Users\Alex\Documents\Developing\Projects\C#\Regular Card Game\Web Version\bin\Debug\net6.0\Cards\DIO.json
+C:\Users\Alex\Documents\Developing\Projects\C#\Regular Card Game\Web Version\bin\Debug\net6.0\Cards\Dr. Oga.json
+C:\Users\Alex\Documents\Developing\Projects\C#\Regular Card Game\Web Version\bin\Debug\net6.0\Cards\El Cucho.json
+C:\Users\Alex\Documents\Developing\Projects\C#\Regular Card Game\Web Version\bin\Debug\net6.0\Cards\El Fibonacho.json
+C:\Users\Alex\Documents\Developing\Projects\C#\Regular Card Game\Web Version\bin\Debug\net6.0\Cards\Erathostenes.json
+C:\Users\Alex\Documents\Developing\Projects\C#\Regular Card Game\Web Version\bin\Debug\net6.0\Cards\Even ninja.json
+C:\Users\Alex\Documents\Developing\Projects\C#\Regular Card Game\Web Version\bin\Debug\net6.0\Cards\Fractalín.json
+C:\Users\Alex\Documents\Developing\Projects\C#\Regular Card Game\Web Version\bin\Debug\net6.0\Cards\Guesser.json
+C:\Users\Alex\Documents\Developing\Projects\C#\Regular Card Game\Web Version\bin\Debug\net6.0\Cards\Life Steal.json
+C:\Users\Alex\Documents\Developing\Projects\C#\Regular Card Game\Web Version\bin\Debug\net6.0\Cards\Mage.json
+C:\Users\Alex\Documents\Developing\Projects\C#\Regular Card Game\Web Version\bin\Debug\net6.0\Cards\New Card.json
+C:\Users\Alex\Documents\Developing\Projects\C#\Regular Card Game\Web Version\bin\Debug\net6.0\Cards\Number fan #3.json
+C:\Users\Alex\Documents\Developing\Projects\C#\Regular Card Game\Web Version\bin\Debug\net6.0\Cards\Thanos.json
+C:\Users\Alex\Documents\Developing\Projects\C#\Regular Card Game\Web Version\bin\Debug\net6.0\Cards\Warrior.json
+C:\Users\Alex\Documents\Developing\Projects\C#\Regular Card Game\Web Version\bin\Debug\net6.0\Cards\Yovani Vazquez.json
+C:\Users\Alex\Documents\Developing\Projects\C#\Regular Card Game\Web Version\bin\Debug\net6.0\Users\Alex.json
+C:\Users\Alex\Documents\Developing\Projects\C#\Regular Card Game\Web Version\bin\Debug\net6.0\Users\Ariel.json
+C:\Users\Alex\Documents\Developing\Projects\C#\Regular Card Game\Web Version\bin\Debug\net6.0\Users\Computer.json
+C:\Users\Alex\Documents\Developing\Projects\C#\Regular Card Game\Web Version\bin\Debug\net6.0\Users\Edian.json
+C:\Users\Alex\Documents\Developing\Projects\C#\Regular Card Game\Web Version\bin\Debug\net6.0\Users\Kevin.json
+C:\Users\Alex\Documents\Developing\Projects\C#\Regular Card Game\Web Version\bin\Debug\net6.0\RegularCardGame.staticwebassets.runtime.json
+C:\Users\Alex\Documents\Developing\Projects\C#\Regular Card Game\Web Version\bin\Debug\net6.0\RegularCardGame.exe
+C:\Users\Alex\Documents\Developing\Projects\C#\Regular Card Game\Web Version\bin\Debug\net6.0\RegularCardGame.deps.json
+C:\Users\Alex\Documents\Developing\Projects\C#\Regular Card Game\Web Version\bin\Debug\net6.0\RegularCardGame.runtimeconfig.json
+C:\Users\Alex\Documents\Developing\Projects\C#\Regular Card Game\Web Version\bin\Debug\net6.0\RegularCardGame.dll
+C:\Users\Alex\Documents\Developing\Projects\C#\Regular Card Game\Web Version\bin\Debug\net6.0\RegularCardGame.pdb
+C:\Users\Alex\Documents\Developing\Projects\C#\Regular Card Game\Web Version\obj\Debug\net6.0\RegularCardGame.csproj.AssemblyReference.cache
+C:\Users\Alex\Documents\Developing\Projects\C#\Regular Card Game\Web Version\obj\Debug\net6.0\RegularCardGame.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Alex\Documents\Developing\Projects\C#\Regular Card Game\Web Version\obj\Debug\net6.0\RegularCardGame.AssemblyInfoInputs.cache
+C:\Users\Alex\Documents\Developing\Projects\C#\Regular Card Game\Web Version\obj\Debug\net6.0\RegularCardGame.AssemblyInfo.cs
+C:\Users\Alex\Documents\Developing\Projects\C#\Regular Card Game\Web Version\obj\Debug\net6.0\RegularCardGame.csproj.CoreCompileInputs.cache
+C:\Users\Alex\Documents\Developing\Projects\C#\Regular Card Game\Web Version\obj\Debug\net6.0\RegularCardGame.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Alex\Documents\Developing\Projects\C#\Regular Card Game\Web Version\obj\Debug\net6.0\RegularCardGame.RazorAssemblyInfo.cache
+C:\Users\Alex\Documents\Developing\Projects\C#\Regular Card Game\Web Version\obj\Debug\net6.0\RegularCardGame.RazorAssemblyInfo.cs
+C:\Users\Alex\Documents\Developing\Projects\C#\Regular Card Game\Web Version\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\Alex\Documents\Developing\Projects\C#\Regular Card Game\Web Version\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\Alex\Documents\Developing\Projects\C#\Regular Card Game\Web Version\obj\Debug\net6.0\scopedcss\Shared\MainLayout.razor.rz.scp.css
+C:\Users\Alex\Documents\Developing\Projects\C#\Regular Card Game\Web Version\obj\Debug\net6.0\scopedcss\Shared\NavMenu.razor.rz.scp.css
+C:\Users\Alex\Documents\Developing\Projects\C#\Regular Card Game\Web Version\obj\Debug\net6.0\scopedcss\bundle\RegularCardGame.styles.css
+C:\Users\Alex\Documents\Developing\Projects\C#\Regular Card Game\Web Version\obj\Debug\net6.0\scopedcss\projectbundle\RegularCardGame.bundle.scp.css
+C:\Users\Alex\Documents\Developing\Projects\C#\Regular Card Game\Web Version\obj\Debug\net6.0\RegularCardGame.dll
+C:\Users\Alex\Documents\Developing\Projects\C#\Regular Card Game\Web Version\obj\Debug\net6.0\refint\RegularCardGame.dll
+C:\Users\Alex\Documents\Developing\Projects\C#\Regular Card Game\Web Version\obj\Debug\net6.0\RegularCardGame.pdb
+C:\Users\Alex\Documents\Developing\Projects\C#\Regular Card Game\Web Version\obj\Debug\net6.0\RegularCardGame.genruntimeconfig.cache
+C:\Users\Alex\Documents\Developing\Projects\C#\Regular Card Game\Web Version\obj\Debug\net6.0\ref\RegularCardGame.dll
+C:\Users\abasb\OneDrive\Documents\_my docs\developing\projects\dotnet\Regular Card Game\Web Version\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\abasb\OneDrive\Documents\_my docs\developing\projects\dotnet\Regular Card Game\Web Version\bin\Debug\net6.0\appsettings.json
+C:\Users\abasb\OneDrive\Documents\_my docs\developing\projects\dotnet\Regular Card Game\Web Version\bin\Debug\net6.0\Cards\Ariel Chad.json
+C:\Users\abasb\OneDrive\Documents\_my docs\developing\projects\dotnet\Regular Card Game\Web Version\bin\Debug\net6.0\Cards\Black Hole.json
+C:\Users\abasb\OneDrive\Documents\_my docs\developing\projects\dotnet\Regular Card Game\Web Version\bin\Debug\net6.0\Cards\DIO.json
+C:\Users\abasb\OneDrive\Documents\_my docs\developing\projects\dotnet\Regular Card Game\Web Version\bin\Debug\net6.0\Cards\Dr. Oga.json
+C:\Users\abasb\OneDrive\Documents\_my docs\developing\projects\dotnet\Regular Card Game\Web Version\bin\Debug\net6.0\Cards\El Cucho.json
+C:\Users\abasb\OneDrive\Documents\_my docs\developing\projects\dotnet\Regular Card Game\Web Version\bin\Debug\net6.0\Cards\El Fibonacho.json
+C:\Users\abasb\OneDrive\Documents\_my docs\developing\projects\dotnet\Regular Card Game\Web Version\bin\Debug\net6.0\Cards\Erathostenes.json
+C:\Users\abasb\OneDrive\Documents\_my docs\developing\projects\dotnet\Regular Card Game\Web Version\bin\Debug\net6.0\Cards\Even ninja.json
+C:\Users\abasb\OneDrive\Documents\_my docs\developing\projects\dotnet\Regular Card Game\Web Version\bin\Debug\net6.0\Cards\Fractalín.json
+C:\Users\abasb\OneDrive\Documents\_my docs\developing\projects\dotnet\Regular Card Game\Web Version\bin\Debug\net6.0\Cards\Guesser.json
+C:\Users\abasb\OneDrive\Documents\_my docs\developing\projects\dotnet\Regular Card Game\Web Version\bin\Debug\net6.0\Cards\Life Steal.json
+C:\Users\abasb\OneDrive\Documents\_my docs\developing\projects\dotnet\Regular Card Game\Web Version\bin\Debug\net6.0\Cards\Mage.json
+C:\Users\abasb\OneDrive\Documents\_my docs\developing\projects\dotnet\Regular Card Game\Web Version\bin\Debug\net6.0\Cards\New Card.json
+C:\Users\abasb\OneDrive\Documents\_my docs\developing\projects\dotnet\Regular Card Game\Web Version\bin\Debug\net6.0\Cards\Number fan #3.json
+C:\Users\abasb\OneDrive\Documents\_my docs\developing\projects\dotnet\Regular Card Game\Web Version\bin\Debug\net6.0\Cards\Thanos.json
+C:\Users\abasb\OneDrive\Documents\_my docs\developing\projects\dotnet\Regular Card Game\Web Version\bin\Debug\net6.0\Cards\Warrior.json
+C:\Users\abasb\OneDrive\Documents\_my docs\developing\projects\dotnet\Regular Card Game\Web Version\bin\Debug\net6.0\Cards\Yovani Vazquez.json
+C:\Users\abasb\OneDrive\Documents\_my docs\developing\projects\dotnet\Regular Card Game\Web Version\bin\Debug\net6.0\Users\Alex.json
+C:\Users\abasb\OneDrive\Documents\_my docs\developing\projects\dotnet\Regular Card Game\Web Version\bin\Debug\net6.0\Users\Ariel.json
+C:\Users\abasb\OneDrive\Documents\_my docs\developing\projects\dotnet\Regular Card Game\Web Version\bin\Debug\net6.0\Users\Computer.json
+C:\Users\abasb\OneDrive\Documents\_my docs\developing\projects\dotnet\Regular Card Game\Web Version\bin\Debug\net6.0\Users\Edian.json
+C:\Users\abasb\OneDrive\Documents\_my docs\developing\projects\dotnet\Regular Card Game\Web Version\bin\Debug\net6.0\Users\Kevin.json
+C:\Users\abasb\OneDrive\Documents\_my docs\developing\projects\dotnet\Regular Card Game\Web Version\bin\Debug\net6.0\RegularCardGame.staticwebassets.runtime.json
+C:\Users\abasb\OneDrive\Documents\_my docs\developing\projects\dotnet\Regular Card Game\Web Version\bin\Debug\net6.0\RegularCardGame.exe
+C:\Users\abasb\OneDrive\Documents\_my docs\developing\projects\dotnet\Regular Card Game\Web Version\bin\Debug\net6.0\RegularCardGame.deps.json
+C:\Users\abasb\OneDrive\Documents\_my docs\developing\projects\dotnet\Regular Card Game\Web Version\bin\Debug\net6.0\RegularCardGame.runtimeconfig.json
+C:\Users\abasb\OneDrive\Documents\_my docs\developing\projects\dotnet\Regular Card Game\Web Version\bin\Debug\net6.0\RegularCardGame.dll
+C:\Users\abasb\OneDrive\Documents\_my docs\developing\projects\dotnet\Regular Card Game\Web Version\bin\Debug\net6.0\RegularCardGame.pdb
+C:\Users\abasb\OneDrive\Documents\_my docs\developing\projects\dotnet\Regular Card Game\Web Version\obj\Debug\net6.0\RegularCardGame.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\abasb\OneDrive\Documents\_my docs\developing\projects\dotnet\Regular Card Game\Web Version\obj\Debug\net6.0\RegularCardGame.AssemblyInfoInputs.cache
+C:\Users\abasb\OneDrive\Documents\_my docs\developing\projects\dotnet\Regular Card Game\Web Version\obj\Debug\net6.0\RegularCardGame.AssemblyInfo.cs
+C:\Users\abasb\OneDrive\Documents\_my docs\developing\projects\dotnet\Regular Card Game\Web Version\obj\Debug\net6.0\RegularCardGame.csproj.CoreCompileInputs.cache
+C:\Users\abasb\OneDrive\Documents\_my docs\developing\projects\dotnet\Regular Card Game\Web Version\obj\Debug\net6.0\RegularCardGame.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\abasb\OneDrive\Documents\_my docs\developing\projects\dotnet\Regular Card Game\Web Version\obj\Debug\net6.0\RegularCardGame.RazorAssemblyInfo.cache
+C:\Users\abasb\OneDrive\Documents\_my docs\developing\projects\dotnet\Regular Card Game\Web Version\obj\Debug\net6.0\RegularCardGame.RazorAssemblyInfo.cs
+C:\Users\abasb\OneDrive\Documents\_my docs\developing\projects\dotnet\Regular Card Game\Web Version\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\abasb\OneDrive\Documents\_my docs\developing\projects\dotnet\Regular Card Game\Web Version\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\abasb\OneDrive\Documents\_my docs\developing\projects\dotnet\Regular Card Game\Web Version\obj\Debug\net6.0\staticwebassets\msbuild.RegularCardGame.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\abasb\OneDrive\Documents\_my docs\developing\projects\dotnet\Regular Card Game\Web Version\obj\Debug\net6.0\staticwebassets\msbuild.build.RegularCardGame.props
+C:\Users\abasb\OneDrive\Documents\_my docs\developing\projects\dotnet\Regular Card Game\Web Version\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.RegularCardGame.props
+C:\Users\abasb\OneDrive\Documents\_my docs\developing\projects\dotnet\Regular Card Game\Web Version\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.RegularCardGame.props
+C:\Users\abasb\OneDrive\Documents\_my docs\developing\projects\dotnet\Regular Card Game\Web Version\obj\Debug\net6.0\staticwebassets.pack.json
+C:\Users\abasb\OneDrive\Documents\_my docs\developing\projects\dotnet\Regular Card Game\Web Version\obj\Debug\net6.0\scopedcss\Shared\MainLayout.razor.rz.scp.css
+C:\Users\abasb\OneDrive\Documents\_my docs\developing\projects\dotnet\Regular Card Game\Web Version\obj\Debug\net6.0\scopedcss\Shared\NavMenu.razor.rz.scp.css
+C:\Users\abasb\OneDrive\Documents\_my docs\developing\projects\dotnet\Regular Card Game\Web Version\obj\Debug\net6.0\scopedcss\bundle\RegularCardGame.styles.css
+C:\Users\abasb\OneDrive\Documents\_my docs\developing\projects\dotnet\Regular Card Game\Web Version\obj\Debug\net6.0\scopedcss\projectbundle\RegularCardGame.bundle.scp.css
+C:\Users\abasb\OneDrive\Documents\_my docs\developing\projects\dotnet\Regular Card Game\Web Version\obj\Debug\net6.0\RegularCardGame.dll
+C:\Users\abasb\OneDrive\Documents\_my docs\developing\projects\dotnet\Regular Card Game\Web Version\obj\Debug\net6.0\refint\RegularCardGame.dll
+C:\Users\abasb\OneDrive\Documents\_my docs\developing\projects\dotnet\Regular Card Game\Web Version\obj\Debug\net6.0\RegularCardGame.pdb
+C:\Users\abasb\OneDrive\Documents\_my docs\developing\projects\dotnet\Regular Card Game\Web Version\obj\Debug\net6.0\RegularCardGame.genruntimeconfig.cache
+C:\Users\abasb\OneDrive\Documents\_my docs\developing\projects\dotnet\Regular Card Game\Web Version\obj\Debug\net6.0\ref\RegularCardGame.dll

@@ -1,0 +1,16 @@
+{
+  "name": "Warrior",
+  "life": 1,
+  "attack": 1,
+  "cost": 1,
+  "canAttack": false,
+  "effects": [
+    {
+      "when": "placed",
+      "conditions": "1==1",
+      "actions": "{\n\tn=1;\n}\n"
+    }
+  ],
+  "description": "Classic medieval warrior.",
+  "img": "Warrior.png"
+}

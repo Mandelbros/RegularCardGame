@@ -1,0 +1,41 @@
+1.0
+----------------------
+-everything
+----------------------
+
+1.1
+----------------------
+-musicAudio y volumeSlider (_Layout.cshtml)
+-volume slider in options menu (OptionsMenu.razor)
+-options style (menu.css)
+-musicAudio (todos los .razor)
+-volume (Game.cs)
+-eventLog auto scroll (almost) (match.css)
+-image name input (CardEditor.razor, card editor.css)
+-user editor sets another new user name to avoid errors, updates the UI on user creation/deletion and has an input field for user image (UserEditor.razor)
+-attacking card's outline turns red (Match.razor, match.css)
+-commands thereIsEnemy(i), thereIsAllied(i), getEnemyLife(i), getAlliedLife(i), getEnemyAttack(i), getAlliedAttack(i), getMyPos() (Commands.cs)
+-cards Ariel Chad, Fractalín, Life Steal (/Cards,/images)
+-setHoveredCard fixed (Game.cs)
+-better error description (Parser.cs)
+-user Kevin (/Users)
+NOTES
+*general music volume is set by options volume slider, but updates only on mousemove
+*user must manually put the card/user image in the wwwroot/image folder and type the name in the card/user editor to use it
+*creating an user with name "New user" in the editor leads to unwanted behaviour
+----------------------
+
+1.2
+----------------------
+-parser now throws an exception when recieving a non-valid statement() (Parser.cs)
+-commented and polished code (/Data)
+-Menu class deleted (Menu.cs)
+----------------------
+
+1.3
+----------------------
+-fixed cross-navigator scrollbar style (/css)
+-black match background (Match.razor, match.css)
+-fixed attack arrow (_Layout.cshtml)
+-card Erathostenes (/Cards, /images)
+----------------------

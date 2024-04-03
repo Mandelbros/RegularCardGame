@@ -1,0 +1,16 @@
+@page "/options"
+
+<link href="css/menu.css" rel="stylesheet" />
+
+<PageTitle>Regular Card Game</PageTitle>
+
+<audio autoplay loop id="musicAudio"><source src="/audios/Menu music.mp3" /></audio>
+<div id="mainContainer">
+    <p>Volume:</p>
+    <input type="range" id="volumeSlider" @bind=@Game.volume/>
+    <a href="/">Back</a>
+</div>
+
+@code{
+
+}

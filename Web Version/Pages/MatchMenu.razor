@@ -1,0 +1,71 @@
+@page "/match menu"
+
+<link href="css/menu.css" rel="stylesheet" />
+<link href="css/match menu.css" rel="stylesheet" />
+
+<PageTitle>Regular Card Game</PageTitle>
+
+<audio autoplay loop id="musicAudio"><source src="/audios/Menu music.mp3" /></audio>
+<div id="mainContainer">
+    <div id="usersSelecter">
+        <div class="user">
+            <select @bind=userName[0] @bind:event="oninput">
+                @foreach(string name in getUserNames()){
+                    <option value=@name>@name</option>
+                }
+            </select>
+            <select @bind=@role[0] @bind:event="oninput">
+                <option value="Human">Human</option>
+                <option value="Bot">Bot</option>
+            </select>
+            <div class="userImage" style=@getImageStyle(getUser(0).image)></div>
+        </div>
+        <div id="versusText">VS</div>
+        <div class="user">
+            <select @bind=userName[1] @bind:event="oninput">
+                @foreach(string name in getUserNames()){
+                    <option value=@name>@name</option>
+                }
+            </select>
+            <select @bind=@role[1] @bind:event="oninput">
+                <option value="Human">Human</option>
+                <option value="Bot">Bot</option>
+            </select>
+            <div class="userImage" style=@getImageStyle(getUser(1).image)></div>
+        </div>
+    </div>
+    <div id="buttons">
+        <a href="/match" @onclick="startMatch">Play</a>
+        <a href="/">Back</a>
+    </div>
+</div>
+
+@code{
+    string[] userName=new string[2]{"Computer","Computer"};
+    string[] role=new string[2]{"Human","Human"};
+
+    List<string> getUserNames(){
+        List<string> names = new List<string> (Directory.GetFiles("./Users/", "*.json", SearchOption.AllDirectories));
+        for(int i=0 ; i<names.Count ; i++)
+        {
+            names[i]=names[i].Substring(8);
+            names[i]=names[i].Substring(0,names[i].Length-5);
+        }
+        return names;
+    }
+
+    void startMatch(){
+        Game.setUserName(userName);
+        Game.setRole(role);
+    }
+
+    User getUser(int id){
+        User user=new User();
+        user.import("./Users/"+userName[id]+".json");
+        return user;
+    }
+
+    string getImageStyle(string img){
+        return "background:url('images/"+img+"');background-position: center;background-size: cover;background-repeat: no-repeat;";
+    }
+}

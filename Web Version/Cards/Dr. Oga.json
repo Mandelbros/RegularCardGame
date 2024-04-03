@@ -1,0 +1,22 @@
+{
+  "name": "Dr. Oga",
+  "life": 3,
+  "attack": 1,
+  "cost": 1,
+  "canAttack": false,
+  "effects": [
+    {
+      "when": "placed",
+      "conditions": "1==1",
+      "actions": "{affectHeroLife(2);}\n"
+    },
+    {
+      "when": "turnEnd",
+      "conditions": "1==1",
+      "actions": "{\n\taffectHeroLife(1);\n}\n"
+    }
+  ],
+  "memory": {},
+  "description": "Heals you.",
+  "img": "Dr. Oga.png"
+}

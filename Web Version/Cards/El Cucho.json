@@ -1,0 +1,17 @@
+{
+  "name": "El Cucho",
+  "life": 1,
+  "attack": 5,
+  "cost": 2,
+  "canAttack": false,
+  "effects": [
+    {
+      "when": "placed",
+      "conditions": "1==1",
+      "actions": "{\ni=1;while(i<=7){affectAlliedAttack(i,3);i=i+1;}\n}\n"
+    }
+  ],
+  "memory": {},
+  "description": "The suffix illo in the word cuchillo denotes the existence of a legendary cutting device: El Cucho.",
+  "img": "El Cucho.png"
+}

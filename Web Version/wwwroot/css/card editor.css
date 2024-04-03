@@ -1,0 +1,294 @@
+*{
+	padding: 0px;
+	margin: 0px;
+	transition: 0.3s;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+button,a{
+	text-decoration: none;
+	margin: 5px;
+	color: white;
+	font-size: 2.6vh;
+	font-weight: bold;
+	border: none;
+	border-radius: 5px;
+	padding: 0.4vh 2vh;
+	height: fit-content;
+	width: fit-content;
+	display: block;
+	background: #f2395a;
+    box-shadow: 1px 1px #d10e31,
+                 2px 2px #d10e31,
+                 3px 3px #890920,
+                 4px 4px #890920,
+                 5px 5px 8px rgba(0, 0, 0, 0.5);
+}
+
+button:hover,a:hover{
+	background: #ff5f7c;
+	color: white;
+}
+
+h1{
+	color: #ffe4ea;
+	/* text-shadow: 2px 2px 3px #ffe4eac0; */
+}
+
+p{
+	margin: 0;
+}
+
+#mainContainer{
+	width: 100vw;
+	height: 100vh;
+	display: grid;
+	grid-template-columns: 60% 40%;
+}
+
+#existingCardsContainer{
+	background: rgb(24, 24, 24);
+	text-align: center;
+	height: 100%;
+	overflow-y: scroll;
+}
+
+#existingCardsContainer h1{
+	font-weight: bolder;
+}
+
+#existingCards{
+	width: 100%;
+	position: relative;
+	display: grid;
+	grid-template-columns: repeat(6,1fr);
+}
+
+#newCard{
+	position: relative;
+	border: 1px dashed black;
+	color: rgba(255, 255, 255, 0.555);
+	border-radius: 5px;
+	background: rgba(0, 0, 0, 0.3);
+	width: 16.23vh;
+	height: 23vh;
+	margin: 1vh;
+	display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+	animation: breath 1.5s ease-in-out infinite;
+	cursor: pointer;
+}
+
+#newCard:hover{
+	width: 17vh;
+	height: 24vh;
+	background: rgba(0, 0, 0, 0.4);
+}
+
+#newCard label{
+	cursor: pointer;
+	text-transform: uppercase;
+	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+card{
+	position: relative;
+	width: 17.95vh;
+	height: 25vh;
+	margin: 0;
+	cursor: pointer;
+	animation: breath 1.5s ease-in-out infinite,pop 0.5s ease-in-out;
+	display: block;
+}
+
+@keyframes breath{
+	0% { transform: scale(1.0); }
+	50% { transform: scale(1.03); }
+	100% { transform: scale(1.0); }
+}
+
+@keyframes pop{
+	0% { transform: scale(1.0); }
+	50% { transform: scale(1.2); }
+	100% { transform: scale(1.0); }
+}
+
+card:hover{
+	width: 18.67vh;
+	height: 26vh;
+}
+
+.cardFrame{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background: url("../images/Card Frame.png");
+	background-position: center;
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+.cardImage{
+	position: absolute;
+	width: 52%;
+	height: 50%;
+	left: 25%;
+	top: 6%;
+}
+
+card label{
+	cursor: pointer;
+	position: absolute;
+	color: white;
+	text-shadow: black 0.15vh 0.15vh 0.002vh;
+	font-weight: bold;
+	text-align: center;
+	font-size: 2.5vh;
+}
+
+.manaText{
+	width: 30%;
+	top: 7.4%;
+	left: 2%;
+}
+
+.attackText{
+	width: 30%;
+	top: 80.5%;
+	left: 2.5%;
+}
+
+.healthText{
+	width: 30%;
+	top: 80.2%;
+	left: 69.6%;
+}
+
+.descriptionText{
+	width: 63%;
+	height: 25.9%;
+	top: 63.5%;
+	left: 20%;
+	font-size: 1.2vh;
+	overflow-y: scroll;
+}
+
+.nameText{
+	top: 49%;
+	left: 19%;
+	width: 65%;
+	font-size: 1.4vh;
+	transform:rotate(-7deg);
+}
+
+#editorContainer{
+	position: relative;
+	height: 100%;
+	width: 100%;
+	padding: 6vh;
+	background: rgb(15, 15, 15);
+	overflow-y: scroll;
+	color: white;
+}
+
+#editedCard{
+	position: relative;
+	width: 53.86vh;
+	height: 75vh;
+	margin: 0 auto;
+	display: block;
+	cursor: default;
+	animation: none;
+}
+
+#editedCard input,textarea{
+	position: absolute;
+	color: white;
+	text-shadow: black 0.15vh 0.15vh 0.002vh;
+	font-weight: bold;
+	text-align: center;
+	overflow: scroll;
+	background: rgba(0, 0, 0, 0.2);
+	border-radius: 4px;
+	border: none;
+}
+
+#editedCard .manaText{
+	top: 9.6%;
+	left: 8%;
+	height: 8vh;
+	width: 12vh;
+}
+
+#editedCard .attackText{
+	top: 83%;
+	left: 9%;
+	height: 8vh;
+	width: 12vh;
+}
+
+#editedCard .healthText{
+	top: 83%;
+	left: 76.4%;
+	height: 8vh;
+	width: 12vh;
+}
+
+#editedCard input{
+	font-size: 6.5vh;
+}
+
+#editedCard .descriptionText{
+	font-size: 2.5vh;
+}
+
+#editedCard .nameText{
+	font-size: 4.6vh;
+}
+
+#stickyMenu{
+	position: fixed;
+	display: flex;
+	justify-content: space-between;
+	top: 0;
+	left: 60%;
+	width: 40%;
+	height: 7%;
+	background: rgba(0, 0, 0, 1);
+	box-shadow: 3px 3px 4px rgba(0, 0, 0, 0.5);
+}
+
+#newEffect{
+	cursor: pointer;
+    display: block;
+    background: rgb(30, 30, 30);
+	padding: 2vh;
+	border-radius: 7px;
+	box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+	margin-bottom: 3vh;
+	overflow-x: scroll;
+    position: relative;
+	color: rgb(175, 175, 175);
+	font-weight: bold;
+}
+
+#imageInput{
+	display: flex;
+	font-weight: bold;
+	margin: auto;
+	width: fit-content;
+}
+
+#imageInput input{
+	background: rgba(0, 0, 0, 0.5);
+	border-radius: 4px;
+	border: none;
+	margin-left: 1vw;
+	color: white;
+}
+
+/* input,textarea,select,button,a{
+	animation: breath 1.5s ease-in-out infinite;
+} */

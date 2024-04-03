@@ -1,0 +1,216 @@
+*{
+	padding: 0px;
+	margin: 0px;
+	transition: 0.3s;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+button,a{
+	text-decoration: none;
+	margin: 5px;
+	color: white;
+	font-size: 2.6vh;
+	font-weight: bold;
+	border: none;
+	border-radius: 5px;
+	padding: 0.4vh 2vh;
+	height: fit-content;
+	width: fit-content;
+	display: block;
+	background: #f2395a;
+    box-shadow: 1px 1px #d10e31,
+                 2px 2px #d10e31,
+                 3px 3px #890920,
+                 4px 4px #890920,
+                 5px 5px 8px rgba(0, 0, 0, 0.5);
+}
+
+button:hover,a:hover{
+	background: #ff5f7c;
+	color: white;
+}
+
+h1{
+	color: #ffe4ea;
+    height: 15%;
+	/* text-shadow: 2px 2px 3px #ffe4eac0; */
+}
+
+p{
+	margin: 0;
+}
+
+#mainContainer{
+	width: 100vw;
+	height: 100vh;
+	display: grid;
+	grid-template-columns: 50% 50%;
+}
+
+#existingCardsContainer,#userCardsContainer{
+	background: rgb(24, 24, 24);
+	height: 100%;
+	overflow-y: scroll;
+    padding: 2vh;
+}
+
+#existingCardsContainer{
+    text-align: left;
+}
+
+#userCardsContainer{
+    text-align: right;
+}
+
+#userCardsContainer{
+    background: rgb(17, 17, 17);
+}
+
+#existingCardsContainer h1,#userCardsContainer h1{
+	font-weight: bolder;
+}
+
+#existingCards,#userCards{
+	width: 100%;
+	position: relative;
+	display: grid;
+	grid-template-columns: repeat(5,1fr);
+}
+
+card{
+	position: relative;
+	width: 17.95vh;
+	height: 25vh;
+	margin: 0;
+	cursor: pointer;
+	animation: breath 1.5s ease-in-out infinite,pop 0.5s ease-in-out;
+	display: block;
+}
+
+@keyframes breath{
+	0% { transform: scale(1.0); }
+	50% { transform: scale(1.03); }
+	100% { transform: scale(1.0); }
+}
+
+@keyframes pop{
+	0% { transform: scale(1.0); }
+	50% { transform: scale(1.2); }
+	100% { transform: scale(1.0); }
+}
+
+card:hover{
+	width: 18.67vh;
+	height: 26vh;
+}
+
+.cardFrame{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background: url("../images/Card Frame.png");
+	background-position: center;
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+.cardImage{
+	position: absolute;
+	width: 52%;
+	height: 50%;
+	left: 25%;
+	top: 6%;
+}
+
+card label{
+	cursor: pointer;
+	position: absolute;
+	color: white;
+	text-shadow: black 0.15vh 0.15vh 0.002vh;
+	font-weight: bold;
+	text-align: center;
+	font-size: 2.5vh;
+	overflow: scroll;
+}
+
+.manaText{
+	width: 30%;
+	top: 7.4%;
+	left: 2%;
+}
+
+.attackText{
+	width: 30%;
+	top: 80.5%;
+	left: 2.5%;
+}
+
+.healthText{
+	width: 30%;
+	top: 80.2%;
+	left: 69.6%;
+}
+
+.descriptionText{
+	width: 63%;
+	height: 25.9%;
+	top: 63.5%;
+	left: 20%;
+	font-size: 1.2vh;
+}
+
+.nameText{
+	top: 49%;
+	left: 19%;
+	width: 65%;
+	font-size: 1.4vh;
+	transform:rotate(-7deg);
+}
+
+#userMenu{
+    position: absolute;
+    width: 40%;
+    height: 15%;
+    top: 0;
+    left: 30%;
+    padding: 1vh;
+    border-radius: 0px 0px 8px 8px;
+    background: rgb(8, 8, 8);
+}
+
+#userMenu select{
+    width: 45%;
+    height: 4vh;
+    margin-top: 4px;
+    background: rgba(20, 20, 20, 1);
+    color: rgba(255, 255, 255, 0.8);
+    border: none;
+    border-radius: 4px;
+}
+
+#userMenu p{
+    width: 15%;
+    text-align: center;
+    font-size: 2.3vh;
+    color: rgba(255, 255, 255, 0.4);
+    font-weight: bold;
+}
+
+#userMenu input{
+    width: 45%;
+    height: 4vh;
+    margin-top: 4px;
+    background: rgba(20, 20, 20, 1);
+    padding: 0px 6px;
+    color: rgba(255, 255, 255, 0.8);
+    border: none;
+    border-radius: 4px;
+}
+
+.flexer{
+    display: flex;
+	justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-top: 1vh;
+}

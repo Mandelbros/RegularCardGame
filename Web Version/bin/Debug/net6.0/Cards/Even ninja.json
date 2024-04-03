@@ -1,0 +1,17 @@
+{
+  "name": "Even ninja",
+  "life": 2,
+  "attack": 2,
+  "cost": 1,
+  "canAttack": false,
+  "effects": [
+    {
+      "when": "turnBegin",
+      "conditions": "getTurn()%2==0",
+      "actions": "{\n\taffectOpponentLife(-2);\n}\n"
+    }
+  ],
+  "memory": {},
+  "description": "Works only in even days.",
+  "img": "Even ninja.png"
+}

@@ -1,0 +1,17 @@
+{
+  "name": "Guesser",
+  "life": 3,
+  "attack": 3,
+  "cost": 2,
+  "canAttack": false,
+  "effects": [
+    {
+      "when": "turnEnd",
+      "conditions": "1==1",
+      "actions": "{\n\tprint(\u0022I\u0027m thinking in a number between 1 and 10...Guess it :).\u0022);\na=random(1,10);affectOpponentLife(-a);\n}\n"
+    }
+  ],
+  "memory": {},
+  "description": "Un csm.",
+  "img": "Guesser.png"
+}
